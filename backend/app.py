@@ -43,7 +43,8 @@ def run_background_lead_pipeline(search_id, user_id, category, city, area, radiu
         "progress": 0,
         "total": 0,
         "current_lead": "Fetching locations from SerpAPI...",
-        "leads_found": 0
+        "leads_found": 0,
+        "place_ids": []
     }
     
     try:
@@ -110,6 +111,7 @@ def run_background_lead_pipeline(search_id, user_id, category, city, area, radiu
             processed_count += 1
             active_tasks[search_id]["progress"] = processed_count
             active_tasks[search_id]["leads_found"] = processed_count
+            active_tasks[search_id]["place_ids"].append(place_id)
             
         # Update search history status in Supabase
         db_update_search_history(search_id, "completed", processed_count)
@@ -184,7 +186,21 @@ def get_leads():
     }
     sort_by = request.args.get("sort_by", "-score") # default sort by highest score
     
+    search_id = request.args.get("search_id")
+    place_ids = None
+    if search_id:
+        task = active_tasks.get(search_id)
+        if task:
+            place_ids = task.get("place_ids", [])
+        else:
+            place_ids = []
+            
     leads = db_get_leads(filters=filters, sort_by=sort_by)
+    
+    # Filter memory leads by place_ids if search_id was provided
+    if place_ids is not None:
+        leads = [lead for lead in leads if lead.get("place_id") in place_ids]
+        
     return jsonify(leads)
 
 @app.route("/api/leads/<place_id>", methods=["GET"])

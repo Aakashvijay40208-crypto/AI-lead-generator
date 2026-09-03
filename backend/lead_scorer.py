@@ -106,11 +106,8 @@ def calculate_lead_score(business, audit, ai_analysis=None):
         # 8. Broken Contact Form (10 pts)
         # Check if form exists or flagged broken (default to 15% chance if form exists, or from AI analysis)
         is_form_broken = False
-        if ai_analysis:
+        if ai_analysis and ai_analysis.get("ai_status") != "error":
             is_form_broken = ai_analysis.get("problems_detected", {}).get("broken_contact_form", False)
-        else:
-            # Random heuristic for mock leads
-            is_form_broken = (random.random() > 0.85) if website else False
             
         if is_form_broken:
             score += 10
@@ -122,12 +119,9 @@ def calculate_lead_score(business, audit, ai_analysis=None):
         is_outdated = False
         is_old = False
         
-        if ai_analysis:
+        if ai_analysis and ai_analysis.get("ai_status") != "error":
             is_outdated = ai_analysis.get("problems_detected", {}).get("outdated_design", False)
             is_old = ai_analysis.get("problems_detected", {}).get("old_website", False)
-        else:
-            is_outdated = random.random() > 0.7
-            is_old = random.random() > 0.75
             
         if is_outdated:
             score += 15

@@ -24,6 +24,7 @@ function AppContent() {
   });
   const [apiStatus, setApiStatus] = useState({});
   const [selectedLeadId, setSelectedLeadId] = useState(null);
+  const [currentSearchId, setCurrentSearchId] = useState(null);
   
   // Filtering & Sorting states
   const [filters, setFilters] = useState({
@@ -49,6 +50,7 @@ function AppContent() {
         if (v) params.append(k, v);
       });
       if (sortBy) params.append('sort_by', sortBy);
+      if (currentSearchId) params.append('search_id', currentSearchId);
       
       const leadsRes = await fetch(`${BACKEND_URL}/api/leads?${params.toString()}`);
       if (leadsRes.ok) {
@@ -79,7 +81,7 @@ function AppContent() {
     if (user) {
       refreshData();
     }
-  }, [filters, sortBy, user]);
+  }, [filters, sortBy, user, currentSearchId]);
 
   // Handle email login
   const handleEmailLogin = async (e) => {
@@ -242,7 +244,14 @@ function AppContent() {
       <main style={mainContentStyle}>
         <div style={{ display: 'grid', gridTemplateColumns: '1.4fr 1fr', gap: '24px', alignItems: 'start', flexWrap: 'wrap' }}>
           {/* Left panel: Search Form */}
-          <SearchPanel onSearchComplete={refreshData} backendUrl={BACKEND_URL} />
+          <SearchPanel 
+            onSearchComplete={(sId) => setCurrentSearchId(sId)} 
+            onSearchStart={() => {
+              setLeads([]);
+              setCurrentSearchId(null);
+            }}
+            backendUrl={BACKEND_URL} 
+          />
           
           {/* Right panel: Aggregated metrics */}
           <DashboardStats stats={stats} apiStatus={apiStatus} />

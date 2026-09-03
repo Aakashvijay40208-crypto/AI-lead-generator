@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Loader2, Play, AlertCircle, RefreshCw } from 'lucide-react';
 
-export default function SearchPanel({ onSearchComplete, backendUrl }) {
+export default function SearchPanel({ onSearchComplete, onSearchStart, backendUrl }) {
   const [category, setCategory] = useState('Dentists');
   const [city, setCity] = useState('Austin');
   const [area, setArea] = useState('Downtown');
@@ -33,13 +33,17 @@ export default function SearchPanel({ onSearchComplete, backendUrl }) {
           setLoading(false);
           setSearchId(null);
           clearInterval(interval);
-          onSearchComplete(); // Trigger refresh on parent
+          if (data.total === 0) {
+            setError(data.current_lead || 'No leads found for this query (Quota exceeded or no results).');
+          } else {
+            onSearchComplete(searchId); // Trigger refresh on parent
+          }
         } else if (data.status === 'failed') {
           setLoading(false);
           setSearchId(null);
           setError(data.current_lead || 'Search pipeline failed.');
           clearInterval(interval);
-          onSearchComplete();
+          onSearchComplete(searchId);
         }
       } catch (err) {
         console.error("Polling error:", err);
@@ -61,6 +65,7 @@ export default function SearchPanel({ onSearchComplete, backendUrl }) {
     setProgress(0);
     setTotal(0);
     setStatusMsg('Initializing B2B prospecting scan...');
+    if (onSearchStart) onSearchStart();
 
     try {
       const response = await fetch(`${backendUrl}/api/search`, {

@@ -7,7 +7,7 @@ class TestApiManager(unittest.TestCase):
         # Override key_metrics for clean testing environment
         api_manager.key_metrics = {
             "outscraper": {"keys": ["key_o1", "key_o2"], "index": 0, "usage": {"key_o1": 0, "key_o2": 0}, "disabled": set()},
-            "gemini": {"keys": ["key_g1"], "index": 0, "usage": {"key_g1": 0}, "disabled": set()},
+            "ollama": {"keys": ["local"], "index": 0, "usage": {"local": 0}, "disabled": set()},
             "openai": {"keys": [], "index": 0, "usage": {}, "disabled": set()}
         }
         

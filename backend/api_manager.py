@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 # Usage records for tracking api calls dynamically
 key_metrics = {
     "serpapi": {"keys": [], "index": 0, "usage": {}, "disabled": set()},
-    "gemini": {"keys": [], "index": 0, "usage": {}, "disabled": set()}
+    "ollama": {"keys": ["local"], "index": 0, "usage": {"local": 0}, "disabled": set()}
 }
 
 def _initialize_keys():
@@ -20,14 +20,8 @@ def _initialize_keys():
     serpapi_keys = [k.strip() for k in serpapi_raw.split(",") if k.strip()]
     key_metrics["serpapi"]["keys"] = serpapi_keys
     
-    # Gemini
-    gemini_raw = os.getenv("GEMINI_API_KEY", "")
-    gemini_keys = [k.strip() for k in gemini_raw.split(",") if k.strip()]
-    key_metrics["gemini"]["keys"] = gemini_keys
-    
-
     # Initialize usage metrics
-    for provider in ["serpapi", "gemini"]:
+    for provider in ["serpapi"]:
         for key in key_metrics[provider]["keys"]:
             if key not in key_metrics[provider]["usage"]:
                 key_metrics[provider]["usage"][key] = 0
@@ -91,6 +85,6 @@ def get_provider_status():
             "total_keys": total,
             "active_keys": active,
             "total_calls": sum(data["usage"].values()),
-            "status": "Healthy" if active > 0 else "Simulated Fallback"
+            "status": "Active" if active > 0 else "Error"
         }
     return status

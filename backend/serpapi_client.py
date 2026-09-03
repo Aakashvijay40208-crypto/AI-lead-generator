@@ -21,8 +21,8 @@ def search_and_enrich_businesses(category, city, area=None, radius=None, limit=5
     query += f", {city}"
     
     if not api_key:
-        logger.info("Using simulated SerpAPI mode (No API Key).")
-        return generate_mock_leads(category, city, area, limit)
+        logger.info("SerpAPI key missing. Returning empty results.")
+        return []
         
     try:
         logger.info(f"Running SerpAPI Google Maps search for: '{query}', limit: {limit}")
@@ -42,7 +42,7 @@ def search_and_enrich_businesses(category, city, area=None, radius=None, limit=5
         if response.status_code == 401 or response.status_code == 403:
             logger.error("SerpAPI auth failed (invalid key or quota).")
             disable_key("serpapi", api_key)
-            return generate_mock_leads(category, city, area, limit)
+            return []
             
         response.raise_for_status()
         data = response.json()
@@ -104,9 +104,9 @@ def search_and_enrich_businesses(category, city, area=None, radius=None, limit=5
         return enriched_leads
         
     except Exception as e:
-        logger.error(f"SerpAPI search failed: {e}. Disabling key and falling back to mock leads.")
+        logger.error(f"SerpAPI search failed: {e}. Disabling key and returning empty results.")
         disable_key("serpapi", api_key)
-        return generate_mock_leads(category, city, area, limit)
+        return []
 
 def get_domain_from_url(url):
     try:
@@ -118,98 +118,3 @@ def get_domain_from_url(url):
     except:
         return ""
 
-def generate_mock_leads(category, city, area=None, limit=5):
-    """Generate mock lead data for testing and demonstrations."""
-    leads = []
-    
-    # Pre-defined mock data pools
-    first_names = ["Apex", "Zenith", "Quantum", "Summit", "Echo", "Lumina", "Vanguard", "Delta", "Nova", "Stellar"]
-    categories_dict = {
-        "dentist": ["Dental Care", "Family Dentistry", "Smile Clinic", "Orthodontics"],
-        "restaurant": ["Bistro", "Grill & Bar", "Kitchen", "Pizzeria", "Cafe"],
-        "gym": ["Fitness Center", "CrossFit", "Athletics", "Yoga Studio", "Iron Gym"],
-        "default": ["Consulting", "Solutions", "Services", "Enterprises", "Group"]
-    }
-    
-    key_cat = "default"
-    for k in categories_dict:
-        if k in category.lower():
-            key_cat = k
-            break
-            
-    cat_suffixes = categories_dict[key_cat]
-    
-    locations = {
-        "austin": {"lat": 30.2672, "lng": -97.7431, "zip": "78701"},
-        "new york": {"lat": 40.7128, "lng": -74.0060, "zip": "10001"},
-        "los angeles": {"lat": 34.0522, "lng": -118.2437, "zip": "90001"},
-        "chicago": {"lat": 41.8781, "lng": -87.6298, "zip": "60601"},
-        "default": {"lat": 37.7749, "lng": -122.4194, "zip": "94103"}
-    }
-    
-    key_city = "default"
-    for k in locations:
-        if k in city.lower():
-            key_city = k
-            break
-            
-    base_coords = locations[key_city]
-    
-    for i in range(limit):
-        prefix = random.choice(first_names)
-        suffix = random.choice(cat_suffixes)
-        name = f"{city.capitalize() if key_city == 'default' else prefix} {suffix}"
-        
-        # Add a random index if name collision is likely
-        if i > 0:
-            name += f" {i + 1}"
-            
-        place_id = f"mock_place_{random.randint(10000000, 99999999)}"
-        
-        # Some mock leads have no website, to test lead scoring +40pts
-        has_website = random.random() > 0.35
-        domain = f"{name.lower().replace(' ', '').replace('&', 'and')}.com"
-        website = f"http://{domain}" if has_website else ""
-        
-        # Address
-        street_num = random.randint(100, 9999)
-        street_name = random.choice(["Main St", "Broadway", "Oak Ave", "Pine St", "Maple Dr", "Congress Ave", "Elm St"])
-        address = f"{street_num} {street_name}, {city.capitalize()}, TX {base_coords['zip']}"
-        
-        # Phone
-        phone = f"+1 (512) 555-{random.randint(1000, 9999)}"
-        
-        # Ratings
-        rating = round(random.uniform(2.5, 4.9), 1)
-        review_count = random.randint(5, 450)
-        
-        # Coords
-        lat = base_coords["lat"] + random.uniform(-0.05, 0.05)
-        lng = base_coords["lng"] + random.uniform(-0.05, 0.05)
-        
-        lead = {
-            "place_id": place_id,
-            "name": name,
-            "address": address,
-            "phone_number": phone,
-            "website": website,
-            "google_rating": rating,
-            "review_count": review_count,
-            "latitude": lat,
-            "longitude": lng,
-            "category": key_cat.capitalize(),
-            "contacts": {
-                "emails": [f"contact@{domain}", f"info@{domain}"] if has_website else [],
-                "phoneNumbers": [phone] if has_website else [],
-                "socialLinks": {
-                    "linkedin": f"https://linkedin.com/company/{name.lower().replace(' ', '-')}" if has_website and random.random() > 0.4 else "",
-                    "facebook": f"https://facebook.com/{name.lower().replace(' ', '-')}" if has_website and random.random() > 0.3 else "",
-                    "instagram": f"https://instagram.com/{name.lower().replace(' ', '-')}" if has_website and random.random() > 0.4 else "",
-                    "twitter": f"https://twitter.com/{name.lower().replace(' ', '-')}" if has_website and random.random() > 0.6 else "",
-                    "youtube": ""
-                }
-            }
-        }
-        leads.append(lead)
-        
-    return leads
