@@ -7,8 +7,9 @@ import AuditModal from './components/AuditModal';
 import { LogOut, ShieldAlert, Cpu, Sparkles, LogIn, Lock, Mail } from 'lucide-react';
 import './styles/theme.css';
 
-// We run the Flask server locally on port 5000 (default)
-const BACKEND_URL = "http://localhost:5000";
+// Use environment variable VITE_API_BASE_URL if set (e.g. on Vercel), else default to localhost
+const BACKEND_URL = import.meta.env.VITE_API_BASE_URL || "http://localhost:5000";
+
 
 function AppContent() {
   const { user, loginWithGoogle, loginWithEmail, logout, isDemoMode } = useAuth();
