@@ -6,8 +6,11 @@ const AuthContext = createContext();
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL || "";
 const SUPABASE_KEY = import.meta.env.VITE_SUPABASE_ANON_KEY || "";
 
-let supabase = null;
-const isSupabaseConfigured = SUPABASE_URL && SUPABASE_KEY && !SUPABASE_URL.includes("your-project");
+const isSupabaseConfigured = SUPABASE_URL && 
+  SUPABASE_KEY && 
+  !SUPABASE_URL.includes("your-project") && 
+  !SUPABASE_URL.includes("hrxsomyvovahzgwsrpmz");
+
 
 if (isSupabaseConfigured) {
   try {
