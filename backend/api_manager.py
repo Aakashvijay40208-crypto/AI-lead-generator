@@ -8,15 +8,13 @@ logger = logging.getLogger(__name__)
 
 # Usage records for tracking api calls dynamically
 key_metrics = {
-    "serpapi": {"keys": [], "index": 0, "usage": {}, "disabled": set()},
-    "ollama": {"keys": ["local"], "index": 0, "usage": {"local": 0}, "disabled": set()}
+    "serpapi": {"keys": [], "index": 0, "usage": {}, "disabled": set()}
 }
 
 def _initialize_keys():
     """Parse comma-separated keys from environment variables."""
     # SerpAPI
     serpapi_raw = os.getenv("SERPAPI_API_KEY", "")
-    # Check if there is a comma-separated list or fallback to singular
     serpapi_keys = [k.strip() for k in serpapi_raw.split(",") if k.strip()]
     key_metrics["serpapi"]["keys"] = serpapi_keys
     
@@ -28,6 +26,8 @@ def _initialize_keys():
 
 # Init keys
 _initialize_keys()
+
+
 
 def get_api_key(provider):
     """

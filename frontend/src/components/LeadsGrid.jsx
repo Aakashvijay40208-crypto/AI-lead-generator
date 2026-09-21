@@ -138,7 +138,8 @@ export default function LeadsGrid({ leads, filters, setFilters, sortBy, setSortB
                     Business Name <ArrowUpDown size={12} />
                   </div>
                 </th>
-                <th style={{ padding: '16px 20px', fontSize: '12px', color: 'var(--text-secondary)' }}>Address</th>
+                <th style={{ padding: '16px 20px', fontSize: '12px', color: 'var(--text-secondary)' }}>Address & Phone</th>
+                <th style={{ padding: '16px 20px', fontSize: '12px', color: 'var(--text-secondary)' }}>Website Status</th>
                 <th 
                   onClick={() => handleSort('rating')}
                   style={{ padding: '16px 20px', fontSize: '12px', color: 'var(--text-secondary)', cursor: 'pointer', userSelect: 'none' }}
@@ -147,7 +148,6 @@ export default function LeadsGrid({ leads, filters, setFilters, sortBy, setSortB
                     Google Review <ArrowUpDown size={12} />
                   </div>
                 </th>
-                <th style={{ padding: '16px 20px', fontSize: '12px', color: 'var(--text-secondary)' }}>Website</th>
                 <th 
                   onClick={() => handleSort('score')}
                   style={{ padding: '16px 20px', fontSize: '12px', color: 'var(--text-secondary)', cursor: 'pointer', userSelect: 'none' }}
@@ -166,9 +166,9 @@ export default function LeadsGrid({ leads, filters, setFilters, sortBy, setSortB
                   const rating = lead.google_rating || 0;
                   const reviewCount = lead.review_count || 0;
                   const website = lead.website || '';
+                  const websiteStatus = lead.lead_scores?.website_status || (website ? "Website Available" : "No Website");
                   const score = lead.lead_scores?.score ?? 0;
                   const priority = lead.lead_scores?.priority ?? 'LOW';
-                  const failed = lead.lead_scores?.failed_checks || [];
                   
                   return (
                     <tr 
@@ -181,32 +181,45 @@ export default function LeadsGrid({ leads, filters, setFilters, sortBy, setSortB
                     >
                       <td style={{ padding: '16px 20px' }}>
                         <div style={{ fontWeight: 600, fontSize: '14px' }}>{lead.name}</div>
-                        <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginTop: '2px' }}>
-                          ID: {lead.place_id.substring(0, 15)}...
+                        {website ? (
+                          <a 
+                            href={website} 
+                            target="_blank" 
+                            rel="noopener noreferrer" 
+                            style={{ color: 'var(--accent)', textDecoration: 'none', fontSize: '11px', marginTop: '2px', display: 'inline-block' }}
+                          >
+                            {website.replace(/^https?:\/\//, '').substring(0, 30)}...
+                          </a>
+                        ) : (
+                          <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginTop: '2px' }}>
+                            No website link
+                          </div>
+                        )}
+                      </td>
+                      <td style={{ padding: '16px 20px', fontSize: '13px', color: 'var(--text-secondary)', maxWidth: '200px' }}>
+                        <div>{lead.address || "N/A"}</div>
+                        <div style={{ fontSize: '11px', color: 'var(--primary)', marginTop: '2px' }}>
+                          {lead.phone_number || "No Phone"}
                         </div>
                       </td>
-                      <td style={{ padding: '16px 20px', fontSize: '13px', color: 'var(--text-secondary)', maxWidth: '200px', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
-                        {lead.address}
+                      <td style={{ padding: '16px 20px' }}>
+                        <span style={{
+                          fontSize: '11px',
+                          fontWeight: 700,
+                          padding: '4px 10px',
+                          borderRadius: '12px',
+                          background: website ? 'rgba(16, 185, 129, 0.12)' : 'rgba(239, 68, 68, 0.12)',
+                          color: website ? 'var(--success)' : 'var(--error)',
+                          border: `1px solid ${website ? 'rgba(16, 185, 129, 0.25)' : 'rgba(239, 68, 68, 0.25)'}`
+                        }}>
+                          {websiteStatus}
+                        </span>
                       </td>
                       <td style={{ padding: '16px 20px', fontSize: '13px' }}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
                           <span style={{ color: 'var(--warning)', fontWeight: 700 }}>{rating.toFixed(1)}</span>
                           <span style={{ color: 'var(--text-muted)', fontSize: '11px' }}>({reviewCount})</span>
                         </div>
-                      </td>
-                      <td style={{ padding: '16px 20px', fontSize: '13px' }}>
-                        {website ? (
-                          <a 
-                            href={website} 
-                            target="_blank" 
-                            rel="noopener noreferrer" 
-                            style={{ color: 'var(--accent)', textDecoration: 'none' }}
-                          >
-                            Link
-                          </a>
-                        ) : (
-                          <span style={{ color: 'var(--text-muted)' }}>None</span>
-                        )}
                       </td>
                       <td style={{ padding: '16px 20px', fontWeight: 800, fontSize: '15px' }}>
                         {score}
@@ -223,7 +236,7 @@ export default function LeadsGrid({ leads, filters, setFilters, sortBy, setSortB
                           style={{ padding: '6px 12px', fontSize: '12px' }}
                         >
                           <Eye size={12} />
-                          Analyze
+                          View Audit
                         </button>
                       </td>
                     </tr>
@@ -233,6 +246,7 @@ export default function LeadsGrid({ leads, filters, setFilters, sortBy, setSortB
                 <tr>
                   <td colSpan={7} style={{ padding: '40px', textAlign: 'center', color: 'var(--text-secondary)' }}>
                     No leads found. Launch a search above to generate new prospects.
+
                   </td>
                 </tr>
               )}

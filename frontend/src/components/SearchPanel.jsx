@@ -180,12 +180,13 @@ export default function SearchPanel({ onSearchComplete, onSearchStart, backendUr
 
           <button 
             type="submit" 
-            className="btn-primary" 
-            style={{ width: 'fit-content', alignSelf: 'flex-end', marginTop: '4px' }}
+            className="btn-primary btn-search-submit" 
+            style={{ alignSelf: 'flex-end', marginTop: '4px' }}
           >
             <Play size={14} fill="currentColor" />
             Launch Prospect Scan
           </button>
+
         </form>
       ) : (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', padding: '10px 0' }}>

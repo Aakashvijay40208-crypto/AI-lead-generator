@@ -19,7 +19,6 @@ from api_manager import get_provider_status
 from serpapi_client import search_and_enrich_businesses
 from playwright_auditor import audit_website
 from lead_scorer import calculate_lead_score
-from ai_analyzer import analyze_business
 from export_manager import generate_leads_excel
 
 # Initialize logger
@@ -34,8 +33,8 @@ active_tasks = {}
 
 def run_background_lead_pipeline(search_id, user_id, category, city, area, radius, limit):
     """
-    Background worker thread running search, scraping, website audits, 
-    AI analysis, and lead scoring.
+    Background worker thread running search, scraping, Playwright website audits, 
+    and deterministic lead scoring.
     """
     logger.info(f"Background pipeline started for search {search_id}")
     active_tasks[search_id] = {
@@ -75,18 +74,39 @@ def run_background_lead_pipeline(search_id, user_id, category, city, area, radiu
             name = bus["name"]
             website = bus.get("website")
             
-            active_tasks[search_id]["current_lead"] = f"Auditing site: {name} ({index+1}/{total_leads})"
-            logger.info(f"Auditing business: {name} (Website: {website})")
-            
-            # Write category back into business
+            # Explicit website status
+            website_status = "Website Available" if website else "No Website"
+            bus["website_status"] = website_status
             bus["category"] = category
+            
+            active_tasks[search_id]["current_lead"] = f"Processing lead: {name} ({index+1}/{total_leads})"
+            logger.info(f"Processing business: {name} (Website Status: {website_status})")
             
             # Save basic business listing first
             db_upsert_business(bus)
             
-            # 2. Run Playwright audit
-            audit = audit_website(place_id, website)
+            # 2. Run Playwright website audit if website exists
+            audit = None
+            if website:
+                try:
+                    active_tasks[search_id]["current_lead"] = f"Auditing website: {name} ({index+1}/{total_leads})"
+                    logger.info(f"Running Playwright audit for website: {website}")
+                    audit = audit_website(place_id, website)
+                except Exception as audit_err:
+                    logger.warning(f"Playwright website audit failed for {website}: {audit_err}")
             
+            if not audit:
+                audit = {
+                    "place_id": place_id,
+                    "website_status": 200 if website else 0,
+                    "is_https": website.startswith("https://") if website else False,
+                    "response_time_ms": 0,
+                    "seo": {},
+                    "ux": {},
+                    "tech_detected": {},
+                    "contacts": {"emails": [], "phoneNumbers": [], "socialLinks": {}}
+                }
+                
             # Merge scraper contacts from SerpAPI (if any) if not detected by Playwright
             if bus.get("contacts"):
                 for contact_type in ["emails", "phoneNumbers"]:
@@ -99,11 +119,8 @@ def run_background_lead_pipeline(search_id, user_id, category, city, area, radiu
             # Save audit report
             db_upsert_audit_report(audit)
             
-            # 3. AI analysis
-            ai_report = analyze_business(bus, audit)
-            
-            # 4. Lead Score calculation
-            lead_score = calculate_lead_score(bus, audit, ai_report)
+            # 3. Rule-based Lead Score calculation
+            lead_score = calculate_lead_score(bus, audit)
             
             # Save lead scores
             db_upsert_lead_score(lead_score)
@@ -112,6 +129,7 @@ def run_background_lead_pipeline(search_id, user_id, category, city, area, radiu
             active_tasks[search_id]["progress"] = processed_count
             active_tasks[search_id]["leads_found"] = processed_count
             active_tasks[search_id]["place_ids"].append(place_id)
+
             
         # Update search history status in Supabase
         db_update_search_history(search_id, "completed", processed_count)

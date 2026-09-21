@@ -201,7 +201,7 @@ function AppContent() {
   return (
     <div style={dashboardShellStyle}>
       {/* Header bar */}
-      <header style={headerStyle}>
+      <header style={headerStyle} className="dashboard-header">
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
           <div style={{ background: 'var(--primary-gradient)', padding: '8px', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
             <Cpu size={20} style={{ color: '#fff' }} />
@@ -211,20 +211,20 @@ function AppContent() {
               OXIS Lead Intelligence
             </h2>
             <span style={{ fontSize: '10px', color: 'var(--text-muted)', textTransform: 'uppercase', fontWeight: 700, letterSpacing: '0.05em' }}>
-              B2B transformation Engine
+              B2B Audit & Search Engine
             </span>
           </div>
         </div>
 
         {/* User bar */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '16px', flexWrap: 'wrap' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             <img 
               src={user.user_metadata?.avatar_url || `https://api.dicebear.com/7.x/initials/svg?seed=${user.email}`} 
               alt="Avatar" 
               style={{ width: '32px', height: '32px', borderRadius: '50%', border: '1px solid var(--border-light)' }}
             />
-            <div style={{ display: 'none', mdBlock: 'block' }}>
+            <div>
               <div style={{ fontSize: '13px', fontWeight: 600 }}>
                 {user.user_metadata?.full_name || user.email.split('@')[0]}
               </div>
@@ -241,8 +241,8 @@ function AppContent() {
       </header>
 
       {/* Main Grid dashboard */}
-      <main style={mainContentStyle}>
-        <div style={{ display: 'grid', gridTemplateColumns: '1.4fr 1fr', gap: '24px', alignItems: 'start', flexWrap: 'wrap' }}>
+      <main style={mainContentStyle} className="dashboard-main-content">
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '24px', alignItems: 'start' }} className="dashboard-grid-top">
           {/* Left panel: Search Form */}
           <SearchPanel 
             onSearchComplete={(sId) => setCurrentSearchId(sId)} 
@@ -256,6 +256,7 @@ function AppContent() {
           {/* Right panel: Aggregated metrics */}
           <DashboardStats stats={stats} apiStatus={apiStatus} />
         </div>
+
 
         {/* Data leads grid */}
         <div style={{ marginTop: '24px' }}>

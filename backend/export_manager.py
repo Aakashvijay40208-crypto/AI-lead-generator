@@ -47,16 +47,18 @@ def generate_leads_excel(leads):
         "Category", 
         "Address", 
         "Phone", 
+        "Website", 
+        "Website Status",
         "WhatsApp", 
         "Email", 
         "LinkedIn", 
-        "Website", 
         "Lead Score", 
         "Priority",
         "Problems Detected", 
         "Recommended Services", 
         "Google Maps URL"
     ]
+
     
     # Write headers
     ws.append(headers)
@@ -111,21 +113,26 @@ def generate_leads_excel(leads):
         elif place_id:
             gmaps_url = f"https://www.google.com/maps/place/?q=place_id:{place_id}"
             
+        website_url = lead.get("website", "")
+        website_status = scores.get("website_status") or ("Website Available" if website_url else "No Website")
+
         row_data = [
             lead.get("name", "N/A"),
-            lead.get("category", "N/A") if lead.get("category") else (problems[0].replace("No ", "") if problems else "General"),
+            lead.get("category", "N/A") if lead.get("category") else "General",
             lead.get("address", "N/A"),
             phone,
+            website_url,
+            website_status,
             whatsapp,
             email_str,
             linkedin,
-            lead.get("website", ""),
             score,
             priority,
             problems_str,
             services_str,
             gmaps_url
         ]
+
         
         ws.append(row_data)
         

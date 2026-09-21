@@ -196,6 +196,118 @@
       },
       "status": "running",
       "leads_found": 0
+    },
+    "a5311707-9816-44c9-a2b7-b25f46965b93": {
+      "id": "a5311707-9816-44c9-a2b7-b25f46965b93",
+      "created_at": "2026-09-04T12:20:58.123290Z",
+      "user_id": "default-user",
+      "query": {
+        "category": "Dentists",
+        "city": "Chennai",
+        "area": "Nungambakkam",
+        "radius": 5,
+        "limit": 5
+      },
+      "status": "completed",
+      "leads_found": 5
+    },
+    "c23e58ec-cc10-411d-8551-bff424434d37": {
+      "id": "c23e58ec-cc10-411d-8551-bff424434d37",
+      "created_at": "2026-09-04T13:02:21.772443Z",
+      "user_id": "default-user",
+      "query": {
+        "category": "Restaurants",
+        "city": "Chennai",
+        "area": "Arumbakkam",
+        "radius": 5,
+        "limit": 20
+      },
+      "status": "completed",
+      "leads_found": 20
+    },
+    "c53dbd53-c1bd-4889-933b-44effc137af5": {
+      "id": "c53dbd53-c1bd-4889-933b-44effc137af5",
+      "created_at": "2026-09-07T16:17:37.963395Z",
+      "user_id": "default-user",
+      "query": {
+        "category": "Dentists",
+        "city": "chennai",
+        "area": "nungambakkam",
+        "radius": 5,
+        "limit": 3
+      },
+      "status": "completed",
+      "leads_found": 3
+    },
+    "7a6db9bb-ed73-4ecb-94be-b23bba01bed7": {
+      "id": "7a6db9bb-ed73-4ecb-94be-b23bba01bed7",
+      "created_at": "2026-09-08T03:23:43.838060Z",
+      "user_id": "default-user",
+      "query": {
+        "category": "Dentist",
+        "city": "Austin",
+        "area": "Downtown",
+        "radius": 5,
+        "limit": 5
+      },
+      "status": "completed",
+      "leads_found": 5
+    },
+    "9c83bc8b-8634-4b80-8838-1c2451426cd7": {
+      "id": "9c83bc8b-8634-4b80-8838-1c2451426cd7",
+      "created_at": "2026-09-08T03:24:18.408612Z",
+      "user_id": "default-user",
+      "query": {
+        "category": "Dentists",
+        "city": "Chennai",
+        "area": "Virugambakkam",
+        "radius": 5,
+        "limit": 3
+      },
+      "status": "completed",
+      "leads_found": 3
+    },
+    "f3113a59-7a37-4277-b237-9147c8ec17ef": {
+      "id": "f3113a59-7a37-4277-b237-9147c8ec17ef",
+      "created_at": "2026-09-21T03:51:27.957928Z",
+      "user_id": "default-user",
+      "query": {
+        "category": "Dentists",
+        "city": "chennai",
+        "area": "nungambakkam",
+        "radius": 5,
+        "limit": 5
+      },
+      "status": "completed",
+      "leads_found": 5
+    },
+    "ce2fab9a-bfd1-4de6-b5cc-7fe9148d7b9f": {
+      "id": "ce2fab9a-bfd1-4de6-b5cc-7fe9148d7b9f",
+      "created_at": "2026-09-21T04:35:54.025586Z",
+      "user_id": "default-user",
+      "query": {
+        "category": "Dentists",
+        "city": "chennai",
+        "area": "egmore",
+        "radius": 5,
+        "limit": 5
+      },
+      "status": "completed",
+      "leads_found": 5
+    },
+    "1835574b-bcd7-4e06-be08-8060f8fec8b9": {
+      "id": "1835574b-bcd7-4e06-be08-8060f8fec8b9",
+      "created_at": "2026-09-21T04:38:21.365426Z",
+      "user_id": "default-user",
+      "query": {
+        "category": "cafe",
+        "city": "chennai",
+        "area": "virugambakkam",
+        "radius": 5,
+        "limit": 5
+      },
+      "status": "completed",
+      "leads_found": 5
     }
   },
   "businesses": {
@@ -543,6 +655,959 @@
           "youtube": ""
         }
       }
+    },
+    "ChIJSdP3KmZmUjoRneq6_T6WiFc": {
+      "place_id": "ChIJSdP3KmZmUjoRneq6_T6WiFc",
+      "name": "Clove Dental Clinic in Nungambakkam, Chennai",
+      "address": "Valluvar Kottam High Rd, opposite to Meenakshi Fertility Centre, next to DCB Bank, Nungambakkam, Chennai, Tamil Nadu 600034, India",
+      "phone_number": "+91 40 6926 0043",
+      "website": "https://clovedental.in/dentist-near-me/chennai/nungambakkam?utm_source=website&utm_medium=gmb&utm_campaign=Nungambakkam_GMB_Chennai",
+      "google_rating": 4.8,
+      "review_count": 1122,
+      "latitude": 13.0588353,
+      "longitude": 80.2423728,
+      "category": "Dentists",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJDx3IYEJmUjoRgER_w8pwbp4": {
+      "place_id": "ChIJDx3IYEJmUjoRgER_w8pwbp4",
+      "name": "Acharya Dental",
+      "address": "14/5, 6th St, Tirumurthy Nagar, Nungambakkam, Chennai, Tamil Nadu 600034, India",
+      "phone_number": "+91 44 4950 1100",
+      "website": "https://www.acharyadental.com/",
+      "google_rating": 4.8,
+      "review_count": 1094,
+      "latitude": 13.0571702,
+      "longitude": 80.24621839999999,
+      "category": "Dentists",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJ8RADuP1nUjoRxj9MpKo5EsU": {
+      "place_id": "ChIJ8RADuP1nUjoRxj9MpKo5EsU",
+      "name": "Apollo Dental Nungambakkam",
+      "address": "1, Sterling Rd, opp. to Pharos Hotels, Seetha Nagar, Nungambakkam, Chennai, Tamil Nadu 600034, India",
+      "phone_number": "+91 98846 69077",
+      "website": "https://apollodentalnungambakkam.com/",
+      "google_rating": 4.9,
+      "review_count": 1237,
+      "latitude": 13.0654793,
+      "longitude": 80.2423712,
+      "category": "Dentists",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJAT62gWdmUjoRBCULXshFLzE": {
+      "place_id": "ChIJAT62gWdmUjoRBCULXshFLzE",
+      "name": "Rayen Dental Care Centre",
+      "address": "Redbricks Leela Apartments, 30/1, Tank Bund Rd, Nungambakkam, Chennai, Tamil Nadu 600034, India",
+      "phone_number": "+91 44 2827 7766",
+      "website": "http://drroshandentistchennai.com/",
+      "google_rating": 4.9,
+      "review_count": 733,
+      "latitude": 13.0612423,
+      "longitude": 80.2375823,
+      "category": "Dentists",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJQXl1KF5mUjoRPjC3LB0OIwc": {
+      "place_id": "ChIJQXl1KF5mUjoRPjC3LB0OIwc",
+      "name": "32 Dental Care Nungambakkam | Invisalign Chennai | Laser & Dental Implants Chennai",
+      "address": "365P, Mahalingapuram Main Rd, Mahalingapuram, Nungambakkam, Chennai, Tamil Nadu 600034, India",
+      "phone_number": "+91 95001 00032",
+      "website": "https://www.32dentalcare.org/",
+      "google_rating": 4.8,
+      "review_count": 365,
+      "latitude": 13.057925,
+      "longitude": 80.23561099999999,
+      "category": "Dentists",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJLwW-4ZNnUjoR0Mr2lM-afkM": {
+      "place_id": "ChIJLwW-4ZNnUjoR0Mr2lM-afkM",
+      "name": "Geetham Veg Restaurant - Koyambedu",
+      "address": "Plot No : C, 22nd St, Jai Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 7397 222 111",
+      "website": "https://geethamveg.com/",
+      "google_rating": 4.3,
+      "review_count": 1452,
+      "latitude": 13.0702944,
+      "longitude": 80.2051896,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJ8a8KXSxnUjoRGfmJwfh937c": {
+      "place_id": "ChIJ8a8KXSxnUjoRGfmJwfh937c",
+      "name": "AMRITAM MULTI CUISINE RESTAURANT",
+      "address": "18, Jawaharlal Nehru Salai, Ashoka Nagar, Sri Sakthi Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 63850 49912",
+      "website": "",
+      "google_rating": 4.3,
+      "review_count": 55,
+      "latitude": 13.064993699999999,
+      "longitude": 80.2115067,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJAyEt2qdmUjoRHFz9QmtwLbE": {
+      "place_id": "ChIJAyEt2qdmUjoRHFz9QmtwLbE",
+      "name": "The Oriental Blossom Chennai",
+      "address": "Radha Regent, 171, Jawaharlal Nehru Salai, SAF Games Village, Annai Sathya Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 189 922 1894",
+      "website": "",
+      "google_rating": 4.3,
+      "review_count": 82,
+      "latitude": 13.0651037,
+      "longitude": 80.2104387,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJi4KjjNFnUjoRFdlhpXzJEM0": {
+      "place_id": "ChIJi4KjjNFnUjoRFdlhpXzJEM0",
+      "name": "The Cloud Story Restaurant",
+      "address": "No. 955, 1st Floor, 106, Poonamallee High Rd, beside Akshaya palace, above Jeevan bakery, Amaravathi Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "",
+      "website": "",
+      "google_rating": 4.4,
+      "review_count": 158,
+      "latitude": 13.0771137,
+      "longitude": 80.2097205,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJK2pN_K1nUjoRvwhL4TZm9ow": {
+      "place_id": "ChIJK2pN_K1nUjoRvwhL4TZm9ow",
+      "name": "Dark Heaven Restaurant",
+      "address": "23, 8th St, Jai Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 91760 49525",
+      "website": "",
+      "google_rating": 4.4,
+      "review_count": 32,
+      "latitude": 13.069964899999999,
+      "longitude": 80.207667,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJCSS__mBnUjoReYISM-H61pk": {
+      "place_id": "ChIJCSS__mBnUjoReYISM-H61pk",
+      "name": "Nahdi Mandi Restaurant",
+      "address": "Pillar No. 111, ALM Centre, 145, Jawaharlal Nehru Salai, near MMDA Metro Station, Senthil Nagar, Tiru Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 90610 20003",
+      "website": "https://www.nahdimandi.com/",
+      "google_rating": 4.4,
+      "review_count": 5640,
+      "latitude": 13.060901999999999,
+      "longitude": 80.2114453,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJoYu7O4RnUjoRbV2Jqd--Ek4": {
+      "place_id": "ChIJoYu7O4RnUjoRbV2Jqd--Ek4",
+      "name": "Annam (Home Cooled Veg Food-Cloud Kitchen)",
+      "address": "No: 5/25, Balaji St, SVP Nagar, Amaravathi Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 98401 40211",
+      "website": "http://nammaamnam.com/",
+      "google_rating": 4.7,
+      "review_count": 310,
+      "latitude": 13.0762941,
+      "longitude": 80.205496,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJ4REfLdRnUjoRFh3aCWyXsnE": {
+      "place_id": "ChIJ4REfLdRnUjoRFh3aCWyXsnE",
+      "name": "Igloos rooftop restaurant",
+      "address": "A, Unit of Hotel Jaya, Pushpam Pvt. Ltd, 1131, Jawaharlal Nehru Salai, Jai Nagar, Koyambedu, Chennai, Tamil Nadu 600107, India",
+      "phone_number": "+91 89257 55506",
+      "website": "",
+      "google_rating": 4.4,
+      "review_count": 2590,
+      "latitude": 13.071055999999999,
+      "longitude": 80.20456399999999,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJfwoLWsJnUjoRG9CRddoM7gc": {
+      "place_id": "ChIJfwoLWsJnUjoRG9CRddoM7gc",
+      "name": "The Engineers cafe",
+      "address": "No924, Poonamallee High Rd, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 78458 06422",
+      "website": "",
+      "google_rating": 4.8,
+      "review_count": 46,
+      "latitude": 13.0773178,
+      "longitude": 80.2084698,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJmaSKgxdnUjoR0O59Xng0TM0": {
+      "place_id": "ChIJmaSKgxdnUjoR0O59Xng0TM0",
+      "name": "Vigrama restaurant",
+      "address": "E- Block, 54, Community Hall St, MMDA Colony, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 97908 91234",
+      "website": "",
+      "google_rating": 3.9,
+      "review_count": 533,
+      "latitude": 13.0662864,
+      "longitude": 80.2138495,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJa6NpcwBnUjoRmr0yqHISUNE": {
+      "place_id": "ChIJa6NpcwBnUjoRmr0yqHISUNE",
+      "name": "WOODLANDS DRIVE-IN",
+      "address": "477, Poonamallee High Rd, Mangali Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 96006 84689",
+      "website": "",
+      "google_rating": 4.2,
+      "review_count": 1381,
+      "latitude": 13.076727499999999,
+      "longitude": 80.2120322,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJ3x-R0KNmUjoRXhB5LFzcKU8": {
+      "place_id": "ChIJ3x-R0KNmUjoRXhB5LFzcKU8",
+      "name": "The Lobby Cafe",
+      "address": "Radha Regent, 171, Jawaharlal Nehru Salai, SAF Games Village, Annai Sathya Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 44 6677 8899",
+      "website": "",
+      "google_rating": 4.2,
+      "review_count": 251,
+      "latitude": 13.0652077,
+      "longitude": 80.2104185,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJ4af60SVnUjoRzvU19-McHl8": {
+      "place_id": "ChIJ4af60SVnUjoRzvU19-McHl8",
+      "name": "CHENNAI FOOD TOWN",
+      "address": "100ft, 213 Jawaharlal Nehru, Road, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 99622 12722",
+      "website": "http://www.chennaifoodtown.com/",
+      "google_rating": 4.0,
+      "review_count": 900,
+      "latitude": 13.0674116,
+      "longitude": 80.2093101,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJpz8nM8RnUjoR_L6CSNTJoig": {
+      "place_id": "ChIJpz8nM8RnUjoR_L6CSNTJoig",
+      "name": "Manik Hyderabad Biryani",
+      "address": "475, Poonamallee High Rd, SBI Officers Colony, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 74485 57566",
+      "website": "",
+      "google_rating": 4.5,
+      "review_count": 504,
+      "latitude": 13.0764958,
+      "longitude": 80.2124297,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJ8WrKZQBnUjoR4g8atE9AnKo": {
+      "place_id": "ChIJ8WrKZQBnUjoR4g8atE9AnKo",
+      "name": "Lokmat bahia",
+      "address": "No:48/52, 22nd St, Jai Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "",
+      "website": "",
+      "google_rating": 4.2,
+      "review_count": 206,
+      "latitude": 13.0701561,
+      "longitude": 80.20534409999999,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJlQF5EwBnUjoRpIVgd7aH0jQ": {
+      "place_id": "ChIJlQF5EwBnUjoRpIVgd7aH0jQ",
+      "name": "Revathys Cafe",
+      "address": "Door No 1, 2nd Main Rd, Jagannatha Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 90805 95004",
+      "website": "",
+      "google_rating": 4.5,
+      "review_count": 24,
+      "latitude": 13.0735403,
+      "longitude": 80.2061701,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJAXHcaaRmUjoRJULWuslAe5U": {
+      "place_id": "ChIJAXHcaaRmUjoRJULWuslAe5U",
+      "name": "Sangeetha Veg Restaurant",
+      "address": "Jawaharlal Nehru Salai, Janakiraman Colony, Koyambedu, Chennai, Tamil Nadu 600107, India",
+      "phone_number": "+91 83709 12345",
+      "website": "",
+      "google_rating": 4.0,
+      "review_count": 10877,
+      "latitude": 13.071982199999999,
+      "longitude": 80.20294609999999,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJRe21hZ1mUjoRt12UeF7LAEg": {
+      "place_id": "ChIJRe21hZ1mUjoRt12UeF7LAEg",
+      "name": "New Tip Top Cafe",
+      "address": "523, 3rd Ave, NSK Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 94450 06026",
+      "website": "",
+      "google_rating": 4.9,
+      "review_count": 15,
+      "latitude": 13.079572599999999,
+      "longitude": 80.21753389999999,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJ28b0n7BnUjoRiL-f4LGFORc": {
+      "place_id": "ChIJ28b0n7BnUjoRiL-f4LGFORc",
+      "name": "SREE RAJ BHAVAN",
+      "address": "No.9, Water Tank Rd, R Block, MMDA Colony, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 99402 65428",
+      "website": "",
+      "google_rating": 4.4,
+      "review_count": 13,
+      "latitude": 13.0687264,
+      "longitude": 80.21521159999999,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJ8xgnfqpnUjoRlxlFf5a7KL0": {
+      "place_id": "ChIJ8xgnfqpnUjoRlxlFf5a7KL0",
+      "name": "Sandoz King",
+      "address": "Indira Gandhi St, Sri Sakthi Nagar, Arumbakkam, Chennai, Tamil Nadu 600106, India",
+      "phone_number": "+91 96000 81226",
+      "website": "",
+      "google_rating": 4.7,
+      "review_count": 65,
+      "latitude": 13.0691627,
+      "longitude": 80.2106905,
+      "category": "Restaurants",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJdWgENLS1RIYReos4IrRuTmQ": {
+      "place_id": "ChIJdWgENLS1RIYReos4IrRuTmQ",
+      "name": "Swish Dental Downtown",
+      "address": "201 W 5th St Ste 175, Austin, TX 78701",
+      "phone_number": "(512) 713-1099",
+      "website": "https://www.swishsmiles.com/location/downtown",
+      "google_rating": 4.5,
+      "review_count": 975,
+      "latitude": 30.2674035,
+      "longitude": -97.7451433,
+      "category": "Dentist",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJO0xN0RG1RIYRIDFDZYJkYjA": {
+      "place_id": "ChIJO0xN0RG1RIYRIDFDZYJkYjA",
+      "name": "Toothbar",
+      "address": "211 Walter Seaholm Dr LR 160, Austin, TX 78701",
+      "phone_number": "(512) 607-4268",
+      "website": "https://www.toothbar.com/",
+      "google_rating": 4.9,
+      "review_count": 731,
+      "latitude": 30.2671177,
+      "longitude": -97.7527535,
+      "category": "Dentist",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJPUFJWUC1RIYR0-ewEnawAVQ": {
+      "place_id": "ChIJPUFJWUC1RIYR0-ewEnawAVQ",
+      "name": "Downtown Dental Design",
+      "address": "507 Pressler St #350, Austin, TX 78703",
+      "phone_number": "(512) 482-9383",
+      "website": "https://downtowndentaldesign.com/?utm_source=google&utm_medium=local&utm_campaign=gmb",
+      "google_rating": 5.0,
+      "review_count": 228,
+      "latitude": 30.272929299999998,
+      "longitude": -97.7605397,
+      "category": "Dentist",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJscomSom1RIYRMCE0xXMiYWI": {
+      "place_id": "ChIJscomSom1RIYRMCE0xXMiYWI",
+      "name": "Primavera Dental Group - Downtown Austin",
+      "address": "815 Brazos St Ste. 101, Austin, TX 78701",
+      "phone_number": "(512) 298-1623",
+      "website": "https://www.primaveradentalgroup.com/locations/downtown-austin?utm_source=google&utm_medium=organic&utm_campaign=gbp-listing",
+      "google_rating": 4.9,
+      "review_count": 53,
+      "latitude": 30.270250899999997,
+      "longitude": -97.740254,
+      "category": "Dentist",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJtZ6Dkq-1RIYRgNWUxzwnGek": {
+      "place_id": "ChIJtZ6Dkq-1RIYRgNWUxzwnGek",
+      "name": "East Austin Dental",
+      "address": "Coraz\u00f3n, 1000 E 5th St. Ste 110, Austin, TX 78702",
+      "phone_number": "(512) 499-0067",
+      "website": "http://www.eastaustindental.com/",
+      "google_rating": 4.7,
+      "review_count": 91,
+      "latitude": 30.264152099999997,
+      "longitude": -97.73239249999999,
+      "category": "Dentist",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJ5yysU2pmUjoRm_I-hHsh-wA": {
+      "place_id": "ChIJ5yysU2pmUjoRm_I-hHsh-wA",
+      "name": "Apollo Dental Clinic, Nungambakkam | Best Dental Clinic in Chennai | Root Canals, Aligners, Implants, Crowns",
+      "address": "Apollo Dental, Opp Starbucks, Next to Apollo Hospital Greams Road, Khader Nawaz Khan Rd, Nungambakkam, Chennai, Tamil Nadu 600006, India",
+      "phone_number": "+91 40 6906 3461",
+      "website": "https://apollodental.in/?utm_source=GMB&utm_medium=GMBWebsiteButton&utm_campaign=GMBNungambakkam",
+      "google_rating": 4.8,
+      "review_count": 457,
+      "latitude": 13.0612967,
+      "longitude": 80.2511521,
+      "category": "Dentists",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      }
+    },
+    "ChIJ0WaYInNmUjoR_9L9VDbkT78": {
+      "place_id": "ChIJ0WaYInNmUjoR_9L9VDbkT78",
+      "name": "Dr. Rao Dental Clinic",
+      "address": "Sait Colony, 1st, Cross Street, Mukta Gardens, Egmore, Chennai, Tamil Nadu 600008, India",
+      "phone_number": "+91 99621 12181",
+      "website": "http://raodentalclinic.com/",
+      "google_rating": 4.9,
+      "review_count": 409,
+      "latitude": 13.073554999999999,
+      "longitude": 80.253075,
+      "category": "Dentists",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "website_status": "Website Available"
+    },
+    "ChIJzQv_YAxmUjoRfZOC9BVS4q0": {
+      "place_id": "ChIJzQv_YAxmUjoRfZOC9BVS4q0",
+      "name": "Dr Shradha Dental Center - Dentist in Chennai @ Egmore",
+      "address": "36, GL House, Egmore High Rd, Egmore, Chennai, Tamil Nadu 600008, India",
+      "phone_number": "+91 80562 22200",
+      "website": "http://www.drshradhadental.com/",
+      "google_rating": 4.9,
+      "review_count": 268,
+      "latitude": 13.0750099,
+      "longitude": 80.2557358,
+      "category": "Dentists",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "website_status": "Website Available"
+    },
+    "ChIJ38_FSHNmUjoRDdAX2ETQy2g": {
+      "place_id": "ChIJ38_FSHNmUjoRDdAX2ETQy2g",
+      "name": "Santosham Dental Clinic",
+      "address": "No 155, Egmore High Rd, Egmore, Chennai, Tamil Nadu 600008, India",
+      "phone_number": "+91 44 4214 6484",
+      "website": "https://santoshamdental.com/",
+      "google_rating": 4.9,
+      "review_count": 76,
+      "latitude": 13.0746767,
+      "longitude": 80.25369239999999,
+      "category": "Dentists",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "website_status": "Website Available"
+    },
+    "ChIJtSfG9BNmUjoRB_qTRWUG744": {
+      "place_id": "ChIJtSfG9BNmUjoRB_qTRWUG744",
+      "name": "Arista Dental Centre",
+      "address": "G3, Ground Floor, 24, Ethiraj Salai, Egmore, Chennai, Tamil Nadu 600008, India",
+      "phone_number": "+91 86376 69350",
+      "website": "https://aristadentalcentre.com/",
+      "google_rating": 4.9,
+      "review_count": 44,
+      "latitude": 13.0648787,
+      "longitude": 80.2585608,
+      "category": "Dentists",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "website_status": "Website Available"
+    },
+    "ChIJkQ3DCPZnUjoRAwCG8iksXko": {
+      "place_id": "ChIJkQ3DCPZnUjoRAwCG8iksXko",
+      "name": "Your Smiles Advanced Multispecialty Dental Clinic",
+      "address": "First Floor, Prince Plaza, 20, Pantheon Rd, Egmore, Chennai, Tamil Nadu 600008, India",
+      "phone_number": "+91 94789 47820",
+      "website": "https://www.yoursmiles.in/",
+      "google_rating": 5.0,
+      "review_count": 33,
+      "latitude": 13.072194,
+      "longitude": 80.25986999999999,
+      "category": "Dentists",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "website_status": "Website Available"
+    },
+    "ChIJ3cbWlpZnUjoRGV6qBJFdzsQ": {
+      "place_id": "ChIJ3cbWlpZnUjoRGV6qBJFdzsQ",
+      "name": "Madrassi Saligramam",
+      "address": "Old No.143, New No.13, Vivekananda St, Kumaran Colony, Bhaskar Colony, Virugambakkam, Chennai, Tamil Nadu 600092, India",
+      "phone_number": "+91 99628 20202",
+      "website": "https://www.madrassi.in/",
+      "google_rating": 4.8,
+      "review_count": 236,
+      "latitude": 13.0524706,
+      "longitude": 80.19823079999999,
+      "category": "cafe",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "website_status": "Website Available"
+    },
+    "ChIJKyFF4rZmUjoRBOfn-ywwmFs": {
+      "place_id": "ChIJKyFF4rZmUjoRBOfn-ywwmFs",
+      "name": "Saravana Coffee",
+      "address": "43/3, Kaliamman Koil St, Chinmaya Nagar Stage 1, Virugambakkam, Chennai, Tamil Nadu 600092, India",
+      "phone_number": "+91 98416 76553",
+      "website": "https://saravanacoffee.com/",
+      "google_rating": 4.8,
+      "review_count": 60,
+      "latitude": 13.0605754,
+      "longitude": 80.1959354,
+      "category": "cafe",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "website_status": "Website Available"
+    },
+    "ChIJEaLiEr9nUjoR_DHRDiUDaHg": {
+      "place_id": "ChIJEaLiEr9nUjoR_DHRDiUDaHg",
+      "name": "Aaladipattiyan Virugambakkam",
+      "address": ": 55, Kaliamman Koil St, opp. to MG Swamy Kalyana Mandapam, Sri Venkatesh Nagar, Sai Baba Colony, Virugambakkam, Chennai, Tamil Nadu 600092, India",
+      "phone_number": "+91 80989 50895",
+      "website": "https://halwakadai.com/",
+      "google_rating": 4.2,
+      "review_count": 647,
+      "latitude": 13.0562585,
+      "longitude": 80.19382809999999,
+      "category": "cafe",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "website_status": "Website Available"
+    },
+    "ChIJpZoG4UBnUjoRfYHsvVugWPA": {
+      "place_id": "ChIJpZoG4UBnUjoRfYHsvVugWPA",
+      "name": "PLUTO Cafe and Restaurant",
+      "address": "Old no: 7, shanmugam villagam, New no: 200, Kaliamman Koil St, Virugambakkam, Chennai, Tamil Nadu 600092, India",
+      "phone_number": "+91 86861 00104",
+      "website": "",
+      "google_rating": 4.9,
+      "review_count": 58,
+      "latitude": 13.0476335,
+      "longitude": 80.1925942,
+      "category": "cafe",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "website_status": "No Website"
+    },
+    "ChIJ-T24jldnUjoRVMXhTCLmr0o": {
+      "place_id": "ChIJ-T24jldnUjoRVMXhTCLmr0o",
+      "name": "Anbe Vaa",
+      "address": "14, 1st Main Rd, Sai Nagar, Virugambakkam, Chennai, Tamil Nadu 600092, India",
+      "phone_number": "+91 99945 75945",
+      "website": "",
+      "google_rating": 4.6,
+      "review_count": 67,
+      "latitude": 13.0593489,
+      "longitude": 80.1958689,
+      "category": "cafe",
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "website_status": "No Website"
     }
   },
   "audit_reports": {
@@ -927,7 +1992,7 @@
       "place_id": "ChIJNTbeK4VnUjoRQu4qZkfAT64",
       "website_status": 200,
       "is_https": true,
-      "response_time_ms": 11039,
+      "response_time_ms": 4528,
       "seo": {
         "title": "Anusha's Dental - Best Dental Clinic in Virugambakkam Chennai",
         "description": "Anusha's Dental Center in Virugambakkam offers comprehensive dental care with five specialized experts, advanced technology, and personalized treatment plans in Chennai.",
@@ -972,11 +2037,11 @@
     },
     "ChIJc1VVhbZmUjoROKBKrRQ48YA": {
       "place_id": "ChIJc1VVhbZmUjoROKBKrRQ48YA",
-      "website_status": 200,
+      "website_status": "timeout",
       "is_https": false,
-      "response_time_ms": 48040,
+      "response_time_ms": 556,
       "seo": {
-        "title": "Home",
+        "title": "",
         "description": "",
         "h1Hierarchy": [],
         "canonical": "",
@@ -984,10 +2049,10 @@
         "hasSitemap": false
       },
       "ux": {
-        "isMobileFriendly": true,
-        "hasHeroSection": true,
-        "hasCTA": true,
-        "hasFooter": true
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
       },
       "tech_detected": {
         "bookingSystem": false,
@@ -1257,6 +2322,1887 @@
         "mobileUrl": ""
       },
       "audit_error": "No website URL provided"
+    },
+    "ChIJSdP3KmZmUjoRneq6_T6WiFc": {
+      "place_id": "ChIJSdP3KmZmUjoRneq6_T6WiFc",
+      "website_status": 503,
+      "is_https": true,
+      "response_time_ms": 1131,
+      "seo": {
+        "title": "Your access to this site has been limited",
+        "description": "",
+        "h1Hierarchy": [
+          "Your access to this site has been limited by the site owner"
+        ],
+        "canonical": "",
+        "hasRobots": true,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": true,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [
+          "email@example.com"
+        ],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJSdP3KmZmUjoRneq6_T6WiFc_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJSdP3KmZmUjoRneq6_T6WiFc_mobile.png"
+      }
+    },
+    "ChIJDx3IYEJmUjoRgER_w8pwbp4": {
+      "place_id": "ChIJDx3IYEJmUjoRgER_w8pwbp4",
+      "website_status": 200,
+      "is_https": true,
+      "response_time_ms": 14451,
+      "seo": {
+        "title": "Acharya Dental: Best Dental Clinic in Chennai | Best Dental Hospital",
+        "description": "Acharya Dental is the best dental clinic in Chennai, providing a range of services like teeth alignment and laser dentistry. Schedule an appointment with us today to avail our range of expert services by the best dentist in Chennai.",
+        "h1Hierarchy": [],
+        "canonical": "https://acharyadental.com/",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": true,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": true,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": true
+      },
+      "contacts": {
+        "emails": [
+          "acharya@acharyadental.com"
+        ],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJDx3IYEJmUjoRgER_w8pwbp4_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJDx3IYEJmUjoRgER_w8pwbp4_mobile.png"
+      }
+    },
+    "ChIJ8RADuP1nUjoRxj9MpKo5EsU": {
+      "place_id": "ChIJ8RADuP1nUjoRxj9MpKo5EsU",
+      "website_status": 200,
+      "is_https": true,
+      "response_time_ms": 7867,
+      "seo": {
+        "title": "Apollo Dental Nungambakkam | Best Dental Clinic in Nungambakkam",
+        "description": "Looking for the best dental clinic in Nungambakkam, Apollo Dental Clinic Nungambakkam is the place to be. Book your appointment for all your dental needs in Nungambakkam",
+        "h1Hierarchy": [
+          "Experience Dental Excellence with Apol"
+        ],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": true,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": true,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": true
+      },
+      "contacts": {
+        "emails": [
+          "info@apollodentalnungambakkam.com"
+        ],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": "https://www.youtube.com/watch?v=Y-x0efG1seA"
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJ8RADuP1nUjoRxj9MpKo5EsU_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJ8RADuP1nUjoRxj9MpKo5EsU_mobile.png"
+      }
+    },
+    "ChIJAT62gWdmUjoRBCULXshFLzE": {
+      "place_id": "ChIJAT62gWdmUjoRBCULXshFLzE",
+      "website_status": 200,
+      "is_https": false,
+      "response_time_ms": 2805,
+      "seo": {
+        "title": "Rayen Dental Care Centre | Dental Clinic in Chennai",
+        "description": "Rayen Dental Care Centre is a trusted Dental Clinic in Chennai offering advanced treatments, expert care, and healthy smiles. Read Now!",
+        "h1Hierarchy": [
+          "Rayen Dental",
+          "Care Centre",
+          "\u0baa\u0bb1\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0bb0\u0bbe\u0bae\u0bb0\u0bbf\u0baa\u0bcd\u0baa\u0ba4\u0bb1\u0bcd\u0b95\u0bbe\u0ba9 \u0b8e\u0bb3\u0bbf\u0baf \u0bb5\u0bb4\u0bbf\u0b95\u0bb3\u0bcd",
+          "Airway Focused Orthodontics",
+          "How to Clean Teeth at Home"
+        ],
+        "canonical": "https://drroshandentistchennai.com/",
+        "hasRobots": true,
+        "hasSitemap": true
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": false,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": true,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": true,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": true
+      },
+      "contacts": {
+        "emails": [
+          "rayendental@gmail.com",
+          "roshanrayen77@gmail.com"
+        ],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "https://www.linkedin.com/in/roshan-rayen-a32a196a/?skipRedirect=true",
+          "facebook": "https://www.facebook.com/rayen.dental.2025",
+          "instagram": "https://www.instagram.com/rayendentalclinic_nungambakkam/",
+          "twitter": "",
+          "youtube": "https://www.youtube.com/@roshanrayen77"
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJAT62gWdmUjoRBCULXshFLzE_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJAT62gWdmUjoRBCULXshFLzE_mobile.png"
+      }
+    },
+    "ChIJQXl1KF5mUjoRPjC3LB0OIwc": {
+      "place_id": "ChIJQXl1KF5mUjoRPjC3LB0OIwc",
+      "website_status": 200,
+      "is_https": true,
+      "response_time_ms": 8211,
+      "seo": {
+        "title": "Best 32 Dental Care in Chennai",
+        "description": "32 Dental Care is the best dental clinic in Chennai. Our team provides exceptional dental care while keeping your comfort and happiness as our top priorities.",
+        "h1Hierarchy": [],
+        "canonical": "https://www.32dentalcare.org/",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": true,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": true,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": true,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": true
+      },
+      "contacts": {
+        "emails": [
+          "marketing@32dentalcare.org"
+        ],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "https://www.facebook.com/32healthcare/",
+          "instagram": "https://www.instagram.com/32dentalcare/",
+          "twitter": "",
+          "youtube": "https://www.youtube.com/@32dentalcare7"
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJQXl1KF5mUjoRPjC3LB0OIwc_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJQXl1KF5mUjoRPjC3LB0OIwc_mobile.png"
+      }
+    },
+    "ChIJLwW-4ZNnUjoR0Mr2lM-afkM": {
+      "place_id": "ChIJLwW-4ZNnUjoR0Mr2lM-afkM",
+      "website_status": 200,
+      "is_https": true,
+      "response_time_ms": 8575,
+      "seo": {
+        "title": "Geetham Veg - Authentic South Indian Vegetarian Restaurant",
+        "description": "Geetham Veg - Premier vegetarian restaurant in Chennai offering authentic South Indian cuisine. Over 10 locations across Chennai.",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": true,
+        "hasSitemap": true
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": true,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": true,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": true,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [
+          "support@geethamveg.com"
+        ],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "https://www.facebook.com/geethamvegrestaurant/",
+          "instagram": "https://www.instagram.com/geethamvegrestaurant",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJLwW-4ZNnUjoR0Mr2lM-afkM_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJLwW-4ZNnUjoR0Mr2lM-afkM_mobile.png"
+      }
+    },
+    "ChIJ8a8KXSxnUjoRGfmJwfh937c": {
+      "place_id": "ChIJ8a8KXSxnUjoRGfmJwfh937c",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJAyEt2qdmUjoRHFz9QmtwLbE": {
+      "place_id": "ChIJAyEt2qdmUjoRHFz9QmtwLbE",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJi4KjjNFnUjoRFdlhpXzJEM0": {
+      "place_id": "ChIJi4KjjNFnUjoRFdlhpXzJEM0",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJK2pN_K1nUjoRvwhL4TZm9ow": {
+      "place_id": "ChIJK2pN_K1nUjoRvwhL4TZm9ow",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJCSS__mBnUjoReYISM-H61pk": {
+      "place_id": "ChIJCSS__mBnUjoReYISM-H61pk",
+      "website_status": 200,
+      "is_https": true,
+      "response_time_ms": 10186,
+      "seo": {
+        "title": "Home | Nahdi Kuzhi Mandi Restaurant",
+        "description": "Welcome to Nahdi Kuzhi Mandi restaurant. Enjoy delicious cuisine and a cozy atmosphere.",
+        "h1Hierarchy": [
+          "Delicious food\nalways tells a story",
+          "Welcome to Nahdi Mandi",
+          "1",
+          "3",
+          "Enquiry now Online"
+        ],
+        "canonical": "",
+        "hasRobots": true,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": true,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": true,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [
+          "nahdikuzhimandi2022@gmail.com",
+          "nahdimandhi@gmail.com"
+        ],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "https://www.facebook.com/nahdikuzhimandhi?mibextid=YMEMSu",
+          "instagram": "https://www.instagram.com/nahdi_mandi?igsh=NTR5Z201OTU4eHZw",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJCSS__mBnUjoReYISM-H61pk_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJCSS__mBnUjoReYISM-H61pk_mobile.png"
+      }
+    },
+    "ChIJoYu7O4RnUjoRbV2Jqd--Ek4": {
+      "place_id": "ChIJoYu7O4RnUjoRbV2Jqd--Ek4",
+      "website_status": "timeout",
+      "is_https": false,
+      "response_time_ms": 1828,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJoYu7O4RnUjoRbV2Jqd--Ek4_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJoYu7O4RnUjoRbV2Jqd--Ek4_mobile.png"
+      }
+    },
+    "ChIJ4REfLdRnUjoRFh3aCWyXsnE": {
+      "place_id": "ChIJ4REfLdRnUjoRFh3aCWyXsnE",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJfwoLWsJnUjoRG9CRddoM7gc": {
+      "place_id": "ChIJfwoLWsJnUjoRG9CRddoM7gc",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJmaSKgxdnUjoR0O59Xng0TM0": {
+      "place_id": "ChIJmaSKgxdnUjoR0O59Xng0TM0",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJa6NpcwBnUjoRmr0yqHISUNE": {
+      "place_id": "ChIJa6NpcwBnUjoRmr0yqHISUNE",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJ3x-R0KNmUjoRXhB5LFzcKU8": {
+      "place_id": "ChIJ3x-R0KNmUjoRXhB5LFzcKU8",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJ4af60SVnUjoRzvU19-McHl8": {
+      "place_id": "ChIJ4af60SVnUjoRzvU19-McHl8",
+      "website_status": "timeout",
+      "is_https": false,
+      "response_time_ms": 12264,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJ4af60SVnUjoRzvU19-McHl8_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJ4af60SVnUjoRzvU19-McHl8_mobile.png"
+      }
+    },
+    "ChIJpz8nM8RnUjoR_L6CSNTJoig": {
+      "place_id": "ChIJpz8nM8RnUjoR_L6CSNTJoig",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJ8WrKZQBnUjoR4g8atE9AnKo": {
+      "place_id": "ChIJ8WrKZQBnUjoR4g8atE9AnKo",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJlQF5EwBnUjoRpIVgd7aH0jQ": {
+      "place_id": "ChIJlQF5EwBnUjoRpIVgd7aH0jQ",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJAXHcaaRmUjoRJULWuslAe5U": {
+      "place_id": "ChIJAXHcaaRmUjoRJULWuslAe5U",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJRe21hZ1mUjoRt12UeF7LAEg": {
+      "place_id": "ChIJRe21hZ1mUjoRt12UeF7LAEg",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJ28b0n7BnUjoRiL-f4LGFORc": {
+      "place_id": "ChIJ28b0n7BnUjoRiL-f4LGFORc",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJ8xgnfqpnUjoRlxlFf5a7KL0": {
+      "place_id": "ChIJ8xgnfqpnUjoRlxlFf5a7KL0",
+      "website_status": "error",
+      "audit_status": "failed",
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "",
+        "mobileUrl": ""
+      },
+      "audit_error": "No website URL provided"
+    },
+    "ChIJdWgENLS1RIYReos4IrRuTmQ": {
+      "place_id": "ChIJdWgENLS1RIYReos4IrRuTmQ",
+      "website_status": 403,
+      "is_https": true,
+      "response_time_ms": 6188,
+      "seo": {
+        "title": "Just a moment...",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": false,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": true,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJdWgENLS1RIYReos4IrRuTmQ_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJdWgENLS1RIYReos4IrRuTmQ_mobile.png"
+      }
+    },
+    "ChIJO0xN0RG1RIYRIDFDZYJkYjA": {
+      "place_id": "ChIJO0xN0RG1RIYRIDFDZYJkYjA",
+      "website_status": "timeout",
+      "is_https": true,
+      "response_time_ms": 54219,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJO0xN0RG1RIYRIDFDZYJkYjA_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJO0xN0RG1RIYRIDFDZYJkYjA_mobile.png"
+      }
+    },
+    "ChIJPUFJWUC1RIYR0-ewEnawAVQ": {
+      "place_id": "ChIJPUFJWUC1RIYR0-ewEnawAVQ",
+      "website_status": 403,
+      "is_https": true,
+      "response_time_ms": 7594,
+      "seo": {
+        "title": "403 Forbidden",
+        "description": "",
+        "h1Hierarchy": [
+          "403 Forbidden"
+        ],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJPUFJWUC1RIYR0-ewEnawAVQ_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJPUFJWUC1RIYR0-ewEnawAVQ_mobile.png"
+      }
+    },
+    "ChIJscomSom1RIYRMCE0xXMiYWI": {
+      "place_id": "ChIJscomSom1RIYRMCE0xXMiYWI",
+      "website_status": 200,
+      "is_https": true,
+      "response_time_ms": 5726,
+      "seo": {
+        "title": "Dentist Downtown Austin | Primavera Dental Group",
+        "description": "Discover a top-tier dentist Downtown Austin counts on, where expert treatments and personalized attention come together to enhance your smile. Schedule your consultation today!",
+        "h1Hierarchy": [
+          "Discover the Dental Care You Deserve in Downtown Austin"
+        ],
+        "canonical": "https://www.primaveradentalgroup.com/locations/downtown-austin",
+        "hasRobots": true,
+        "hasSitemap": true
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": true,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": true
+      },
+      "contacts": {
+        "emails": [
+          "email@address.com",
+          "info@primaveradentalgroup.com"
+        ],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJscomSom1RIYRMCE0xXMiYWI_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJscomSom1RIYRMCE0xXMiYWI_mobile.png"
+      }
+    },
+    "ChIJtZ6Dkq-1RIYRgNWUxzwnGek": {
+      "place_id": "ChIJtZ6Dkq-1RIYRgNWUxzwnGek",
+      "website_status": "timeout",
+      "is_https": false,
+      "response_time_ms": 27935,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJtZ6Dkq-1RIYRgNWUxzwnGek_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJtZ6Dkq-1RIYRgNWUxzwnGek_mobile.png"
+      }
+    },
+    "ChIJ5yysU2pmUjoRm_I-hHsh-wA": {
+      "place_id": "ChIJ5yysU2pmUjoRm_I-hHsh-wA",
+      "website_status": 200,
+      "is_https": true,
+      "response_time_ms": 24026,
+      "seo": {
+        "title": "Best Dental Clinic in India | Apollo Dental",
+        "description": "Apollo Dental is the leading dental clinic / hospital in India for Implants, Braces, Bridges, Laser RCT, Cosmetic Dentistry & Dental Surgeries.",
+        "h1Hierarchy": [],
+        "canonical": "https://apollodental.in/?utm_source=GMB&utm_medium=GMBWebsiteButton&utm_campaign=GMBNungambakkam",
+        "hasRobots": true,
+        "hasSitemap": true
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": true,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": true,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": true
+      },
+      "contacts": {
+        "emails": [
+          "info@apollodental.in"
+        ],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "https://in.linkedin.com/company/apollo-dental-clinics",
+          "facebook": "https://www.facebook.com/ApollodentalIndia",
+          "instagram": "https://www.instagram.com/apollodentalclinics/",
+          "twitter": "https://twitter.com/ApolloWhiteDen2",
+          "youtube": "https://www.youtube.com/c/ApolloWhite/"
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJ5yysU2pmUjoRm_I-hHsh-wA_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJ5yysU2pmUjoRm_I-hHsh-wA_mobile.png"
+      }
+    },
+    "ChIJ0WaYInNmUjoR_9L9VDbkT78": {
+      "place_id": "ChIJ0WaYInNmUjoR_9L9VDbkT78",
+      "website_status": 200,
+      "is_https": false,
+      "response_time_ms": 12167,
+      "seo": {
+        "title": "Home - Dr. Rao Dental Clinic",
+        "description": "",
+        "h1Hierarchy": [
+          "Create Your Perfect Smile"
+        ],
+        "canonical": "https://www.raodentalclinic.com/",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": true,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": true,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [
+          "dr.raodentalclinic@gmail.com"
+        ],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJ0WaYInNmUjoR_9L9VDbkT78_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJ0WaYInNmUjoR_9L9VDbkT78_mobile.png"
+      }
+    },
+    "ChIJzQv_YAxmUjoRfZOC9BVS4q0": {
+      "place_id": "ChIJzQv_YAxmUjoRfZOC9BVS4q0",
+      "website_status": 200,
+      "is_https": false,
+      "response_time_ms": 23546,
+      "seo": {
+        "title": "Best Dentist in Chennai | Dental Clinic in Chennai",
+        "description": "Experience comfortable, high-quality dental care with our trusted Dentist in Egmore, Adayar. Our Dental Clinic in Egmore provides advanced treatments with a caring approach.",
+        "h1Hierarchy": [
+          "Best Dental Clinic in Adyar & Egmore, Chennai"
+        ],
+        "canonical": "https://www.drshradhadental.com/",
+        "hasRobots": true,
+        "hasSitemap": true
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": true,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": true,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": true
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "https://in.linkedin.com/company/dr-shradha-dental-center",
+          "facebook": "https://www.facebook.com/drshradhadental/",
+          "instagram": "https://www.instagram.com/drshradhadental/?hl=en",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJzQv_YAxmUjoRfZOC9BVS4q0_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJzQv_YAxmUjoRfZOC9BVS4q0_mobile.png"
+      }
+    },
+    "ChIJ38_FSHNmUjoRDdAX2ETQy2g": {
+      "place_id": "ChIJ38_FSHNmUjoRDdAX2ETQy2g",
+      "website_status": "timeout",
+      "is_https": true,
+      "response_time_ms": 1536,
+      "seo": {
+        "title": "",
+        "description": "",
+        "h1Hierarchy": [],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": false,
+        "hasHeroSection": false,
+        "hasCTA": false,
+        "hasFooter": false
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJ38_FSHNmUjoRDdAX2ETQy2g_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJ38_FSHNmUjoRDdAX2ETQy2g_mobile.png"
+      }
+    },
+    "ChIJtSfG9BNmUjoRB_qTRWUG744": {
+      "place_id": "ChIJtSfG9BNmUjoRB_qTRWUG744",
+      "website_status": 200,
+      "is_https": true,
+      "response_time_ms": 12592,
+      "seo": {
+        "title": "Arista Dental Center | Creating Beautiful Smiles",
+        "description": "",
+        "h1Hierarchy": [
+          "Effortless Online Booking",
+          "Contact Us",
+          "Opening Hours"
+        ],
+        "canonical": "https://aristadentalcentre.com/",
+        "hasRobots": true,
+        "hasSitemap": true
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": false,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": true,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": true,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "https://www.instagram.com/aristadentalcentre/?igsh=MW9jcHNjNXQ3Ym53dw%3D%3D#",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJtSfG9BNmUjoRB_qTRWUG744_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJtSfG9BNmUjoRB_qTRWUG744_mobile.png"
+      }
+    },
+    "ChIJkQ3DCPZnUjoRAwCG8iksXko": {
+      "place_id": "ChIJkQ3DCPZnUjoRAwCG8iksXko",
+      "website_status": 200,
+      "is_https": true,
+      "response_time_ms": 4890,
+      "seo": {
+        "title": "Your Smiles Dental Clinic Egmore | Best Multispeciality Dentist Chennai",
+        "description": "Advanced dental implants, cosmetic smile design, pain-free root canals, invisible aligners, teeth whitening and pediatric dentistry at Prince Plaza, Pantheon Road, Egmore, Chennai. Book your visit at Your Smiles Dental Clinic.",
+        "h1Hierarchy": [
+          "Best Dental Clinic in Egmore, Chennai\nYour Smile,\nOur Passion"
+        ],
+        "canonical": "https://www.yoursmiles.in",
+        "hasRobots": true,
+        "hasSitemap": true
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": false,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": true,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [
+          "yoursmiles@gmail.com"
+        ],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJkQ3DCPZnUjoRAwCG8iksXko_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJkQ3DCPZnUjoRAwCG8iksXko_mobile.png"
+      }
+    },
+    "ChIJ3cbWlpZnUjoRGV6qBJFdzsQ": {
+      "place_id": "ChIJ3cbWlpZnUjoRGV6qBJFdzsQ",
+      "website_status": 200,
+      "is_https": true,
+      "response_time_ms": 6014,
+      "seo": {
+        "title": "Madrassi - Dum tea & Filter coffee",
+        "description": "",
+        "h1Hierarchy": [
+          "Authentic Taste of Madras",
+          "Authentic Taste of Madras"
+        ],
+        "canonical": "",
+        "hasRobots": false,
+        "hasSitemap": false
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": true,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": true,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": false,
+        "newsletter": false,
+        "facebookPixel": false,
+        "googleAnalytics": false
+      },
+      "contacts": {
+        "emails": [
+          "admin@madarasi.in"
+        ],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "https://www.facebook.com/MadrassiTN/",
+          "instagram": "https://www.instagram.com/madrassi_official/",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJ3cbWlpZnUjoRGV6qBJFdzsQ_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJ3cbWlpZnUjoRGV6qBJFdzsQ_mobile.png"
+      }
+    },
+    "ChIJKyFF4rZmUjoRBOfn-ywwmFs": {
+      "place_id": "ChIJKyFF4rZmUjoRBOfn-ywwmFs",
+      "website_status": 200,
+      "is_https": true,
+      "response_time_ms": 5129,
+      "seo": {
+        "title": "Home coffee - Saravana Coffee",
+        "description": "We don\u2019t just want to make a sale, we want to make a customer. Customer satisfaction is our ultimate goal and we strive to achieve it every day.",
+        "h1Hierarchy": [],
+        "canonical": "https://saravanacoffee.com/",
+        "hasRobots": true,
+        "hasSitemap": true
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": true,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": false,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": true,
+        "newsletter": true,
+        "facebookPixel": false,
+        "googleAnalytics": true
+      },
+      "contacts": {
+        "emails": [
+          "saravanacoffeekodambakkam@gmail.com"
+        ],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJKyFF4rZmUjoRBOfn-ywwmFs_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJKyFF4rZmUjoRBOfn-ywwmFs_mobile.png"
+      }
+    },
+    "ChIJEaLiEr9nUjoR_DHRDiUDaHg": {
+      "place_id": "ChIJEaLiEr9nUjoR_DHRDiUDaHg",
+      "website_status": 200,
+      "is_https": true,
+      "response_time_ms": 5123,
+      "seo": {
+        "title": "Aaladis | Premium Indian Sweets & Savouries",
+        "description": "Experience the rich heritage of authentic Indian sweets and savouries, crafted with premium ingredients, pure cow ghee, and time-honored recipes.",
+        "h1Hierarchy": [
+          "\ud83d\ude0b Comfort in every bite!"
+        ],
+        "canonical": "https://aaladis.com",
+        "hasRobots": true,
+        "hasSitemap": true
+      },
+      "ux": {
+        "isMobileFriendly": true,
+        "hasHeroSection": true,
+        "hasCTA": true,
+        "hasFooter": true
+      },
+      "tech_detected": {
+        "bookingSystem": false,
+        "whatsapp": true,
+        "chatWidget": false,
+        "crm": false,
+        "paymentGateway": true,
+        "newsletter": false,
+        "facebookPixel": true,
+        "googleAnalytics": true
+      },
+      "contacts": {
+        "emails": [
+          "ask@aaladis.com"
+        ],
+        "phoneNumbers": [],
+        "socialLinks": {
+          "linkedin": "",
+          "facebook": "",
+          "instagram": "",
+          "twitter": "",
+          "youtube": ""
+        }
+      },
+      "screenshots": {
+        "desktopUrl": "/static/screenshots/ChIJEaLiEr9nUjoR_DHRDiUDaHg_desktop.png",
+        "mobileUrl": "/static/screenshots/ChIJEaLiEr9nUjoR_DHRDiUDaHg_mobile.png"
+      }
+    },
+    "ChIJpZoG4UBnUjoRfYHsvVugWPA": {
+      "place_id": "ChIJpZoG4UBnUjoRfYHsvVugWPA",
+      "website_status": 0,
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {},
+      "ux": {},
+      "tech_detected": {},
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {}
+      }
+    },
+    "ChIJ-T24jldnUjoRVMXhTCLmr0o": {
+      "place_id": "ChIJ-T24jldnUjoRVMXhTCLmr0o",
+      "website_status": 0,
+      "is_https": false,
+      "response_time_ms": 0,
+      "seo": {},
+      "ux": {},
+      "tech_detected": {},
+      "contacts": {
+        "emails": [],
+        "phoneNumbers": [],
+        "socialLinks": {}
+      }
     }
   },
   "lead_scores": {
@@ -1423,36 +4369,38 @@
       ],
       "recommended_services": [
         "Performance Optimization",
-        "Online Appointment Booking Platform",
         "Complete Website Redesign",
         "Modern Website Redesign",
+        "Online Appointment Booking Platform",
         "WhatsApp Business Automation"
       ],
-      "last_calculated": "2026-09-03T04:26:51.485913Z"
+      "last_calculated": "2026-09-08T03:30:12.783937Z"
     },
     "ChIJc1VVhbZmUjoROKBKrRQ48YA": {
       "place_id": "ChIJc1VVhbZmUjoROKBKrRQ48YA",
-      "score": 90,
+      "score": 100,
       "priority": "HOT",
       "failed_checks": [
         "No SSL (Not HTTPS)",
         "No SEO (Missing Title or Meta Description)",
+        "Not Mobile Friendly",
         "No WhatsApp Integration",
-        "Poor Performance (Page load > 3s)",
         "No Booking System",
+        "Broken Contact Form",
         "Outdated Website Design",
         "Website Older Than 5 Years"
       ],
       "recommended_services": [
-        "Performance Optimization",
         "Search Engine Optimization (SEO)",
-        "Online Appointment Booking Platform",
         "Complete Website Redesign",
         "Modern Website Redesign",
         "SSL/HTTPS Security Configuration",
+        "Contact Form Refactoring",
+        "Mobile-responsive Design",
+        "Online Appointment Booking Platform",
         "WhatsApp Business Automation"
       ],
-      "last_calculated": "2026-09-03T04:30:52.856166Z"
+      "last_calculated": "2026-09-08T03:35:31.658270Z"
     },
     "ChIJacdoj6NnUjoR1EI9iWgvBrY": {
       "place_id": "ChIJacdoj6NnUjoR1EI9iWgvBrY",
@@ -1468,13 +4416,13 @@
       ],
       "recommended_services": [
         "Search Engine Optimization (SEO)",
-        "Mobile-responsive Design",
         "Website Redesign & Development",
-        "Online Appointment Booking Platform",
         "SSL/HTTPS Security Configuration",
+        "Mobile-responsive Design",
+        "Online Appointment Booking Platform",
         "WhatsApp Business Automation"
       ],
-      "last_calculated": "2026-09-03T04:34:55.501247Z"
+      "last_calculated": "2026-09-08T03:39:28.370589Z"
     },
     "ChIJ914ZLbRmUjoRnQPeP025N5w": {
       "place_id": "ChIJ914ZLbRmUjoRnQPeP025N5w",
@@ -1559,6 +4507,808 @@
         "WhatsApp Business Automation"
       ],
       "last_calculated": "2026-09-03T04:40:24.254888Z"
+    },
+    "ChIJSdP3KmZmUjoRneq6_T6WiFc": {
+      "place_id": "ChIJSdP3KmZmUjoRneq6_T6WiFc",
+      "score": 45,
+      "priority": "LOW",
+      "failed_checks": [
+        "No SEO (Missing Title or Meta Description)",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design",
+        "WhatsApp Business Automation",
+        "Search Engine Optimization (SEO)"
+      ],
+      "last_calculated": "2026-09-21T03:52:18.860634Z"
+    },
+    "ChIJDx3IYEJmUjoRgER_w8pwbp4": {
+      "place_id": "ChIJDx3IYEJmUjoRgER_w8pwbp4",
+      "score": 25,
+      "priority": "LOW",
+      "failed_checks": [
+        "No WhatsApp Integration",
+        "Poor Performance (Page load > 3s)",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Online Appointment Booking Platform",
+        "WhatsApp Business Automation",
+        "Performance Optimization"
+      ],
+      "last_calculated": "2026-09-21T03:51:59.109775Z"
+    },
+    "ChIJ8RADuP1nUjoRxj9MpKo5EsU": {
+      "place_id": "ChIJ8RADuP1nUjoRxj9MpKo5EsU",
+      "score": 15,
+      "priority": "LOW",
+      "failed_checks": [
+        "Poor Performance (Page load > 3s)",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Online Appointment Booking Platform",
+        "Performance Optimization"
+      ],
+      "last_calculated": "2026-09-21T03:53:06.712075Z"
+    },
+    "ChIJAT62gWdmUjoRBCULXshFLzE": {
+      "place_id": "ChIJAT62gWdmUjoRBCULXshFLzE",
+      "score": 15,
+      "priority": "LOW",
+      "failed_checks": [
+        "No SSL (Not HTTPS)",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Online Appointment Booking Platform",
+        "SSL/HTTPS Security Configuration"
+      ],
+      "last_calculated": "2026-09-21T03:53:30.172042Z"
+    },
+    "ChIJQXl1KF5mUjoRPjC3LB0OIwc": {
+      "place_id": "ChIJQXl1KF5mUjoRPjC3LB0OIwc",
+      "score": 50,
+      "priority": "MEDIUM",
+      "failed_checks": [
+        "Poor Performance (Page load > 3s)",
+        "No Booking System",
+        "Outdated Website Design",
+        "Website Older Than 5 Years"
+      ],
+      "recommended_services": [
+        "Online Appointment Booking Platform",
+        "Modern Website Redesign",
+        "Complete Website Redesign",
+        "Performance Optimization"
+      ],
+      "last_calculated": "2026-09-07T16:27:00.170803Z"
+    },
+    "ChIJLwW-4ZNnUjoR0Mr2lM-afkM": {
+      "place_id": "ChIJLwW-4ZNnUjoR0Mr2lM-afkM",
+      "score": 50,
+      "priority": "MEDIUM",
+      "failed_checks": [
+        "Poor Performance (Page load > 3s)",
+        "No Booking System",
+        "Outdated Website Design",
+        "Website Older Than 5 Years"
+      ],
+      "recommended_services": [
+        "Complete Website Redesign",
+        "Modern Website Redesign",
+        "Performance Optimization",
+        "Online Appointment Booking Platform"
+      ],
+      "last_calculated": "2026-09-04T13:05:49.297420Z"
+    },
+    "ChIJ8a8KXSxnUjoRGfmJwfh937c": {
+      "place_id": "ChIJ8a8KXSxnUjoRGfmJwfh937c",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T13:08:09.225523Z"
+    },
+    "ChIJAyEt2qdmUjoRHFz9QmtwLbE": {
+      "place_id": "ChIJAyEt2qdmUjoRHFz9QmtwLbE",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T13:10:24.561070Z"
+    },
+    "ChIJi4KjjNFnUjoRFdlhpXzJEM0": {
+      "place_id": "ChIJi4KjjNFnUjoRFdlhpXzJEM0",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T13:13:28.813615Z"
+    },
+    "ChIJK2pN_K1nUjoRvwhL4TZm9ow": {
+      "place_id": "ChIJK2pN_K1nUjoRvwhL4TZm9ow",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T13:16:10.676783Z"
+    },
+    "ChIJCSS__mBnUjoReYISM-H61pk": {
+      "place_id": "ChIJCSS__mBnUjoReYISM-H61pk",
+      "score": 60,
+      "priority": "MEDIUM",
+      "failed_checks": [
+        "No WhatsApp Integration",
+        "Poor Performance (Page load > 3s)",
+        "No Booking System",
+        "Outdated Website Design",
+        "Website Older Than 5 Years"
+      ],
+      "recommended_services": [
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Complete Website Redesign",
+        "Modern Website Redesign",
+        "Performance Optimization"
+      ],
+      "last_calculated": "2026-09-04T13:20:07.587114Z"
+    },
+    "ChIJoYu7O4RnUjoRbV2Jqd--Ek4": {
+      "place_id": "ChIJoYu7O4RnUjoRbV2Jqd--Ek4",
+      "score": 100,
+      "priority": "HOT",
+      "failed_checks": [
+        "No SSL (Not HTTPS)",
+        "No SEO (Missing Title or Meta Description)",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System",
+        "Broken Contact Form",
+        "Outdated Website Design",
+        "Website Older Than 5 Years"
+      ],
+      "recommended_services": [
+        "Search Engine Optimization (SEO)",
+        "SSL/HTTPS Security Configuration",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Contact Form Refactoring",
+        "Mobile-responsive Design",
+        "Complete Website Redesign",
+        "Modern Website Redesign"
+      ],
+      "last_calculated": "2026-09-04T13:23:35.285907Z"
+    },
+    "ChIJ4REfLdRnUjoRFh3aCWyXsnE": {
+      "place_id": "ChIJ4REfLdRnUjoRFh3aCWyXsnE",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T13:27:11.972892Z"
+    },
+    "ChIJfwoLWsJnUjoRG9CRddoM7gc": {
+      "place_id": "ChIJfwoLWsJnUjoRG9CRddoM7gc",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T13:29:53.483505Z"
+    },
+    "ChIJmaSKgxdnUjoR0O59Xng0TM0": {
+      "place_id": "ChIJmaSKgxdnUjoR0O59Xng0TM0",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T13:33:45.230644Z"
+    },
+    "ChIJa6NpcwBnUjoRmr0yqHISUNE": {
+      "place_id": "ChIJa6NpcwBnUjoRmr0yqHISUNE",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T13:36:58.532391Z"
+    },
+    "ChIJ3x-R0KNmUjoRXhB5LFzcKU8": {
+      "place_id": "ChIJ3x-R0KNmUjoRXhB5LFzcKU8",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T13:40:35.563644Z"
+    },
+    "ChIJ4af60SVnUjoRzvU19-McHl8": {
+      "place_id": "ChIJ4af60SVnUjoRzvU19-McHl8",
+      "score": 100,
+      "priority": "HOT",
+      "failed_checks": [
+        "No SSL (Not HTTPS)",
+        "No SEO (Missing Title or Meta Description)",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "Poor Performance (Page load > 3s)",
+        "No Booking System",
+        "Broken Contact Form",
+        "Outdated Website Design",
+        "Website Older Than 5 Years"
+      ],
+      "recommended_services": [
+        "Search Engine Optimization (SEO)",
+        "SSL/HTTPS Security Configuration",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Contact Form Refactoring",
+        "Mobile-responsive Design",
+        "Complete Website Redesign",
+        "Modern Website Redesign",
+        "Performance Optimization"
+      ],
+      "last_calculated": "2026-09-04T13:43:54.618340Z"
+    },
+    "ChIJpz8nM8RnUjoR_L6CSNTJoig": {
+      "place_id": "ChIJpz8nM8RnUjoR_L6CSNTJoig",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T13:46:54.066677Z"
+    },
+    "ChIJ8WrKZQBnUjoR4g8atE9AnKo": {
+      "place_id": "ChIJ8WrKZQBnUjoR4g8atE9AnKo",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T13:50:01.009604Z"
+    },
+    "ChIJlQF5EwBnUjoRpIVgd7aH0jQ": {
+      "place_id": "ChIJlQF5EwBnUjoRpIVgd7aH0jQ",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T13:52:42.986086Z"
+    },
+    "ChIJAXHcaaRmUjoRJULWuslAe5U": {
+      "place_id": "ChIJAXHcaaRmUjoRJULWuslAe5U",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T13:55:02.983797Z"
+    },
+    "ChIJRe21hZ1mUjoRt12UeF7LAEg": {
+      "place_id": "ChIJRe21hZ1mUjoRt12UeF7LAEg",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T13:58:02.454510Z"
+    },
+    "ChIJ28b0n7BnUjoRiL-f4LGFORc": {
+      "place_id": "ChIJ28b0n7BnUjoRiL-f4LGFORc",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T14:00:24.152568Z"
+    },
+    "ChIJ8xgnfqpnUjoRlxlFf5a7KL0": {
+      "place_id": "ChIJ8xgnfqpnUjoRlxlFf5a7KL0",
+      "score": 95,
+      "priority": "HOT",
+      "failed_checks": [
+        "No Website",
+        "No SEO Setup",
+        "No SSL Certificate",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Website Redesign & Development",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)",
+        "WhatsApp Business Automation",
+        "Online Appointment Booking Platform",
+        "Mobile-responsive Design"
+      ],
+      "last_calculated": "2026-09-04T14:03:55.513445Z"
+    },
+    "ChIJdWgENLS1RIYReos4IrRuTmQ": {
+      "place_id": "ChIJdWgENLS1RIYReos4IrRuTmQ",
+      "score": 90,
+      "priority": "HOT",
+      "failed_checks": [
+        "No SEO (Missing Title or Meta Description)",
+        "No WhatsApp Integration",
+        "Poor Performance (Page load > 3s)",
+        "No Booking System",
+        "Broken Contact Form",
+        "Outdated Website Design",
+        "Website Older Than 5 Years"
+      ],
+      "recommended_services": [
+        "Performance Optimization",
+        "Search Engine Optimization (SEO)",
+        "Complete Website Redesign",
+        "Modern Website Redesign",
+        "Contact Form Refactoring",
+        "Online Appointment Booking Platform",
+        "WhatsApp Business Automation"
+      ],
+      "last_calculated": "2026-09-08T03:29:03.623910Z"
+    },
+    "ChIJO0xN0RG1RIYRIDFDZYJkYjA": {
+      "place_id": "ChIJO0xN0RG1RIYRIDFDZYJkYjA",
+      "score": 100,
+      "priority": "HOT",
+      "failed_checks": [
+        "No SEO (Missing Title or Meta Description)",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "Poor Performance (Page load > 3s)",
+        "No Booking System",
+        "Broken Contact Form",
+        "Outdated Website Design",
+        "Website Older Than 5 Years"
+      ],
+      "recommended_services": [
+        "Performance Optimization",
+        "Search Engine Optimization (SEO)",
+        "Complete Website Redesign",
+        "Modern Website Redesign",
+        "Contact Form Refactoring",
+        "Mobile-responsive Design",
+        "Online Appointment Booking Platform",
+        "WhatsApp Business Automation"
+      ],
+      "last_calculated": "2026-09-08T03:34:24.892728Z"
+    },
+    "ChIJPUFJWUC1RIYR0-ewEnawAVQ": {
+      "place_id": "ChIJPUFJWUC1RIYR0-ewEnawAVQ",
+      "score": 100,
+      "priority": "HOT",
+      "failed_checks": [
+        "No SEO (Missing Title or Meta Description)",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "Poor Performance (Page load > 3s)",
+        "No Booking System",
+        "Broken Contact Form",
+        "Outdated Website Design",
+        "Website Older Than 5 Years"
+      ],
+      "recommended_services": [
+        "Performance Optimization",
+        "Search Engine Optimization (SEO)",
+        "Complete Website Redesign",
+        "Modern Website Redesign",
+        "Contact Form Refactoring",
+        "Mobile-responsive Design",
+        "Online Appointment Booking Platform",
+        "WhatsApp Business Automation"
+      ],
+      "last_calculated": "2026-09-08T03:38:36.998160Z"
+    },
+    "ChIJscomSom1RIYRMCE0xXMiYWI": {
+      "place_id": "ChIJscomSom1RIYRMCE0xXMiYWI",
+      "score": 40,
+      "priority": "LOW",
+      "failed_checks": [
+        "No WhatsApp Integration",
+        "Poor Performance (Page load > 3s)",
+        "No Booking System",
+        "Outdated Website Design"
+      ],
+      "recommended_services": [
+        "Modern Website Redesign",
+        "Performance Optimization",
+        "Online Appointment Booking Platform",
+        "WhatsApp Business Automation"
+      ],
+      "last_calculated": "2026-09-08T03:41:26.263413Z"
+    },
+    "ChIJtZ6Dkq-1RIYRgNWUxzwnGek": {
+      "place_id": "ChIJtZ6Dkq-1RIYRgNWUxzwnGek",
+      "score": 100,
+      "priority": "HOT",
+      "failed_checks": [
+        "No SSL (Not HTTPS)",
+        "No SEO (Missing Title or Meta Description)",
+        "Not Mobile Friendly",
+        "No WhatsApp Integration",
+        "Poor Performance (Page load > 3s)",
+        "No Booking System",
+        "Broken Contact Form",
+        "Outdated Website Design",
+        "Website Older Than 5 Years"
+      ],
+      "recommended_services": [
+        "Performance Optimization",
+        "Search Engine Optimization (SEO)",
+        "Complete Website Redesign",
+        "Modern Website Redesign",
+        "SSL/HTTPS Security Configuration",
+        "Contact Form Refactoring",
+        "Mobile-responsive Design",
+        "Online Appointment Booking Platform",
+        "WhatsApp Business Automation"
+      ],
+      "last_calculated": "2026-09-08T03:44:41.390234Z"
+    },
+    "ChIJ5yysU2pmUjoRm_I-hHsh-wA": {
+      "place_id": "ChIJ5yysU2pmUjoRm_I-hHsh-wA",
+      "score": 15,
+      "priority": "LOW",
+      "failed_checks": [
+        "Poor Performance (Page load > 3s)",
+        "No Booking System"
+      ],
+      "recommended_services": [
+        "Online Appointment Booking Platform",
+        "Performance Optimization"
+      ],
+      "last_calculated": "2026-09-21T03:52:51.257349Z"
+    },
+    "ChIJ0WaYInNmUjoR_9L9VDbkT78": {
+      "place_id": "ChIJ0WaYInNmUjoR_9L9VDbkT78",
+      "score": 70,
+      "priority": "MEDIUM",
+      "website_status": "Website Available",
+      "failed_checks": [
+        "No SSL (Not HTTPS)",
+        "Missing SEO Title or Description",
+        "Slow Load Time (> 3s)"
+      ],
+      "recommended_services": [
+        "Performance Optimization",
+        "SSL/HTTPS Security Configuration",
+        "Search Engine Optimization (SEO)"
+      ],
+      "last_calculated": "2026-09-21T04:36:19.422382Z"
+    },
+    "ChIJzQv_YAxmUjoRfZOC9BVS4q0": {
+      "place_id": "ChIJzQv_YAxmUjoRfZOC9BVS4q0",
+      "score": 55,
+      "priority": "MEDIUM",
+      "website_status": "Website Available",
+      "failed_checks": [
+        "No SSL (Not HTTPS)",
+        "Slow Load Time (> 3s)"
+      ],
+      "recommended_services": [
+        "Performance Optimization",
+        "SSL/HTTPS Security Configuration"
+      ],
+      "last_calculated": "2026-09-21T04:36:49.450228Z"
+    },
+    "ChIJ38_FSHNmUjoRDdAX2ETQy2g": {
+      "place_id": "ChIJ38_FSHNmUjoRDdAX2ETQy2g",
+      "score": 60,
+      "priority": "MEDIUM",
+      "website_status": "Website Available",
+      "failed_checks": [
+        "Missing SEO Title or Description",
+        "Not Mobile Friendly"
+      ],
+      "recommended_services": [
+        "Mobile-responsive Design",
+        "Search Engine Optimization (SEO)"
+      ],
+      "last_calculated": "2026-09-21T04:36:51.794727Z"
+    },
+    "ChIJtSfG9BNmUjoRB_qTRWUG744": {
+      "place_id": "ChIJtSfG9BNmUjoRB_qTRWUG744",
+      "score": 55,
+      "priority": "MEDIUM",
+      "website_status": "Website Available",
+      "failed_checks": [
+        "Missing SEO Title or Description",
+        "Slow Load Time (> 3s)"
+      ],
+      "recommended_services": [
+        "Performance Optimization",
+        "Search Engine Optimization (SEO)"
+      ],
+      "last_calculated": "2026-09-21T04:37:20.204249Z"
+    },
+    "ChIJkQ3DCPZnUjoRAwCG8iksXko": {
+      "place_id": "ChIJkQ3DCPZnUjoRAwCG8iksXko",
+      "score": 40,
+      "priority": "LOW",
+      "website_status": "Website Available",
+      "failed_checks": [
+        "Slow Load Time (> 3s)"
+      ],
+      "recommended_services": [
+        "Performance Optimization"
+      ],
+      "last_calculated": "2026-09-21T04:37:29.828614Z"
+    },
+    "ChIJ3cbWlpZnUjoRGV6qBJFdzsQ": {
+      "place_id": "ChIJ3cbWlpZnUjoRGV6qBJFdzsQ",
+      "score": 55,
+      "priority": "MEDIUM",
+      "website_status": "Website Available",
+      "failed_checks": [
+        "Missing SEO Title or Description",
+        "Slow Load Time (> 3s)"
+      ],
+      "recommended_services": [
+        "Performance Optimization",
+        "Search Engine Optimization (SEO)"
+      ],
+      "last_calculated": "2026-09-21T04:38:32.850011Z"
+    },
+    "ChIJKyFF4rZmUjoRBOfn-ywwmFs": {
+      "place_id": "ChIJKyFF4rZmUjoRBOfn-ywwmFs",
+      "score": 40,
+      "priority": "LOW",
+      "website_status": "Website Available",
+      "failed_checks": [
+        "Slow Load Time (> 3s)"
+      ],
+      "recommended_services": [
+        "Performance Optimization"
+      ],
+      "last_calculated": "2026-09-21T04:38:49.782561Z"
+    },
+    "ChIJEaLiEr9nUjoR_DHRDiUDaHg": {
+      "place_id": "ChIJEaLiEr9nUjoR_DHRDiUDaHg",
+      "score": 40,
+      "priority": "LOW",
+      "website_status": "Website Available",
+      "failed_checks": [
+        "Slow Load Time (> 3s)"
+      ],
+      "recommended_services": [
+        "Performance Optimization"
+      ],
+      "last_calculated": "2026-09-21T04:39:04.156399Z"
+    },
+    "ChIJpZoG4UBnUjoRfYHsvVugWPA": {
+      "place_id": "ChIJpZoG4UBnUjoRfYHsvVugWPA",
+      "score": 100,
+      "priority": "HOT",
+      "website_status": "No Website",
+      "failed_checks": [
+        "No Website"
+      ],
+      "recommended_services": [
+        "Website Development & Redesign"
+      ],
+      "last_calculated": "2026-09-21T04:39:04.313566Z"
+    },
+    "ChIJ-T24jldnUjoRVMXhTCLmr0o": {
+      "place_id": "ChIJ-T24jldnUjoRVMXhTCLmr0o",
+      "score": 100,
+      "priority": "HOT",
+      "website_status": "No Website",
+      "failed_checks": [
+        "No Website"
+      ],
+      "recommended_services": [
+        "Website Development & Redesign"
+      ],
+      "last_calculated": "2026-09-21T04:39:04.497719Z"
     }
   }
 }

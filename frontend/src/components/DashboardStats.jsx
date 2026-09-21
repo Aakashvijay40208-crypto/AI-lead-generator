@@ -36,11 +36,15 @@ export default function DashboardStats({ stats, apiStatus }) {
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '24px' }}>
       {/* Stat Cards Grid */}
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))',
-        gap: '20px'
-      }}>
+      <div 
+        className="dashboard-stats-grid"
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
+          gap: '16px'
+        }}
+      >
+
         {cards.map((c, i) => {
           const Icon = c.icon;
           return (
@@ -97,8 +101,9 @@ export default function DashboardStats({ stats, apiStatus }) {
           gap: '16px'
         }}>
           {Object.entries(apiStatus || {}).map(([provider, details]) => {
-            const isHealthy = details.status === "Healthy";
+            const isHealthy = details.status === "Healthy" || details.status === "Active";
             return (
+
               <div 
                 key={provider} 
                 style={{

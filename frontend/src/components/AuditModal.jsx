@@ -74,7 +74,7 @@ export default function AuditModal({ leadId, onClose, backendUrl }) {
 
   return (
     <div style={modalOverlayStyle}>
-      <div className="glass-panel animate-fade-in" style={modalContentStyle}>
+      <div className="glass-panel animate-fade-in audit-modal-content" style={modalContentStyle}>
         
         {/* Modal Header */}
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', borderBottom: '1px solid var(--border-light)', paddingBottom: '16px', marginBottom: '20px' }}>
@@ -92,10 +92,10 @@ export default function AuditModal({ leadId, onClose, backendUrl }) {
         </div>
 
         {/* Modal Scrollable Body */}
-        <div style={modalBodyStyle}>
+        <div style={modalBodyStyle} className="audit-modal-body">
           
           {/* Left Column: Tech Audits & Info */}
-          <div style={{ flex: '1.2', display: 'flex', flexDirection: 'column', gap: '20px', minWidth: '320px' }}>
+          <div style={{ flex: '1.2', display: 'flex', flexDirection: 'column', gap: '20px', minWidth: '280px' }}>
             
             {/* Tabs selector */}
             <div style={{ display: 'flex', gap: '10px', borderBottom: '1px solid var(--border-light)', paddingBottom: '10px' }}>
@@ -126,13 +126,13 @@ export default function AuditModal({ leadId, onClose, backendUrl }) {
                     </div>
                     <div style={contactRowStyle}>
                       <Mail size={14} style={{ color: 'var(--primary)' }} />
-                      <span style={{ fontSize: '13px' }}>
+                      <span style={{ fontSize: '13px', wordBreak: 'break-word' }}>
                         {contacts.emails?.length > 0 ? contacts.emails.join(", ") : "No emails found"}
                       </span>
                     </div>
                     <div style={contactRowStyle}>
                       <Globe size={14} style={{ color: 'var(--primary)' }} />
-                      <span style={{ fontSize: '13px' }}>
+                      <span style={{ fontSize: '13px', wordBreak: 'break-word' }}>
                         {lead.website ? (
                           <a href={lead.website} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--accent)', textDecoration: 'none' }}>
                             {lead.website} <ExternalLink size={10} style={{ display: 'inline' }} />
@@ -163,7 +163,7 @@ export default function AuditModal({ leadId, onClose, backendUrl }) {
                 {/* Playwright Core Audit details */}
                 <div style={cardStyle}>
                   <h4 style={cardHeaderStyle}>Playwright Website Audit</h4>
-                  <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '16px', marginTop: '12px' }}>
+                  <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(130px, 1fr))', gap: '16px', marginTop: '12px' }}>
                     <div style={auditStatStyle}>
                       <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                         {audit.is_https ? (
@@ -192,19 +192,19 @@ export default function AuditModal({ leadId, onClose, backendUrl }) {
                   {/* SEO Details */}
                   {lead.website && (
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '16px', borderTop: '1px solid var(--border-light)', paddingTop: '12px' }}>
-                      <div style={{ fontSize: '12px' }}>
+                      <div style={{ fontSize: '12px', wordBreak: 'break-word' }}>
                         <strong style={{ color: 'var(--text-secondary)' }}>SEO Title:</strong>{" "}
                         <span style={{ color: seo.title ? 'var(--text-primary)' : 'var(--error)' }}>
                           {seo.title || "[Missing SEO Title Tag]"}
                         </span>
                       </div>
-                      <div style={{ fontSize: '12px' }}>
+                      <div style={{ fontSize: '12px', wordBreak: 'break-word' }}>
                         <strong style={{ color: 'var(--text-secondary)' }}>Meta Description:</strong>{" "}
                         <span style={{ color: seo.description ? 'var(--text-primary)' : 'var(--error)' }}>
                           {seo.description || "[Missing Meta Description]"}
                         </span>
                       </div>
-                      <div style={{ fontSize: '12px' }}>
+                      <div style={{ fontSize: '12px', wordBreak: 'break-word' }}>
                         <strong style={{ color: 'var(--text-secondary)' }}>H1 Headers:</strong>{" "}
                         <span style={{ color: seo.h1Hierarchy?.length ? 'var(--text-primary)' : 'var(--warning)' }}>
                           {seo.h1Hierarchy?.length ? seo.h1Hierarchy.join(" | ") : "[No H1 Tags Found]"}
@@ -285,10 +285,11 @@ export default function AuditModal({ leadId, onClose, backendUrl }) {
             )}
           </div>
 
-          {/* Right Column: AI transformation pitch & Lead Score */}
-          <div style={{ flex: '1', display: 'flex', flexDirection: 'column', gap: '20px', minWidth: '300px', borderLeft: '1px solid var(--border-light)', paddingLeft: '20px' }}>
+          {/* Right Column: Lead Score & Audit Gaps */}
+          <div style={{ flex: '1', display: 'flex', flexDirection: 'column', gap: '20px', minWidth: '280px', borderLeft: '1px solid var(--border-light)', paddingLeft: '20px' }} className="audit-modal-right-col">
+
             
-            {/* Score circle */}
+            {/* Score circle & Website Status */}
             <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
               <div style={{
                 background: 'var(--primary-gradient)',
@@ -308,9 +309,9 @@ export default function AuditModal({ leadId, onClose, backendUrl }) {
               </div>
               <div>
                 <span style={{ fontSize: '11px', color: 'var(--text-secondary)', textTransform: 'uppercase', fontWeight: 600 }}>
-                  Lead Score Status
+                  Lead Score & Priority
                 </span>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: '2px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: '4px' }}>
                   <span className={`badge-priority ${scores.priority?.toLowerCase()}`} style={{ fontSize: '13px', padding: '6px 12px' }}>
                     {scores.priority} OPPORTUNITY
                   </span>
@@ -318,9 +319,28 @@ export default function AuditModal({ leadId, onClose, backendUrl }) {
               </div>
             </div>
 
-            {/* AI problems checklist */}
+            {/* Website Status card */}
             <div style={cardStyle}>
-              <h4 style={cardHeaderStyle}>Gaps Identified</h4>
+              <h4 style={cardHeaderStyle}>Website Availability</h4>
+              <div style={{ marginTop: '8px' }}>
+                <span style={{
+                  display: 'inline-block',
+                  padding: '6px 14px',
+                  borderRadius: '20px',
+                  fontSize: '12px',
+                  fontWeight: 700,
+                  background: lead.website ? 'rgba(16, 185, 129, 0.15)' : 'rgba(239, 68, 68, 0.15)',
+                  color: lead.website ? 'var(--success)' : 'var(--error)',
+                  border: `1px solid ${lead.website ? 'rgba(16, 185, 129, 0.3)' : 'rgba(239, 68, 68, 0.3)'}`
+                }}>
+                  {lead.website ? "Website Available" : "No Website"}
+                </span>
+              </div>
+            </div>
+
+            {/* Audit gaps checklist */}
+            <div style={cardStyle}>
+              <h4 style={cardHeaderStyle}>Audit Gaps Identified</h4>
               <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '12px' }}>
                 {scores.failed_checks?.map((chk) => (
                   <div key={chk} style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '13px', color: 'var(--text-primary)' }}>
@@ -334,7 +354,7 @@ export default function AuditModal({ leadId, onClose, backendUrl }) {
               </div>
             </div>
 
-            {/* Recommended OXIS services */}
+            {/* Recommended services */}
             <div style={cardStyle}>
               <h4 style={cardHeaderStyle}>Recommended Services</h4>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px', marginTop: '12px' }}>
@@ -356,26 +376,6 @@ export default function AuditModal({ leadId, onClose, backendUrl }) {
                 ))}
               </div>
             </div>
-
-            {/* AI Sales outreach mail pitch */}
-            <div style={{ ...cardStyle, flexGrow: 1, display: 'flex', flexDirection: 'column' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
-                <h4 style={cardHeaderStyle}>B2B Outreach Cockpit</h4>
-                <button 
-                  onClick={handleCopyPitch}
-                  className="btn-secondary" 
-                  style={{ padding: '4px 8px', fontSize: '11px', display: 'flex', alignItems: 'center', gap: '4px' }}
-                >
-                  {copied ? <Check size={12} style={{ color: 'var(--success)' }} /> : <Copy size={12} />}
-                  {copied ? "Copied" : "Copy Pitch"}
-                </button>
-              </div>
-              <textarea
-                readOnly
-                value={scores.personalized_pitch || "Loading sales pitch..."}
-                style={textareaStyle}
-              />
-            </div>
             
           </div>
         </div>
@@ -384,6 +384,7 @@ export default function AuditModal({ leadId, onClose, backendUrl }) {
     </div>
   );
 }
+
 
 // Inline Styles
 const modalOverlayStyle = {
